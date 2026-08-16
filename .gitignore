@@ -1,0 +1,36 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Runtime logs and temporary output
+.novaplan-server*.log
+tmp/
+
+# Local document-rendering tools and generated previews
+whitepaper/.render-tools/
+whitepaper/rendered*/
+whitepaper/student_rendered/
+whitepaper/summary_render*/
+whitepaper/figures/
+whitepaper/*_audit.json
+whitepaper/*a11y*.json
+whitepaper/style_lint.json
+
+# Superseded or unrelated local documents
+Digital_SAT_Grammar_Tutorial.docx
+NovaPlan_15_Page_Project_Summary.pdf
+NovaPlan_White_Paper_v0.1.pdf
+whitepaper/NovaPlan_15_Page_Project_Summary.*
+whitepaper/NovaPlan_White_Paper_v0.1.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

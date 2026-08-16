@@ -1,0 +1,133 @@
+# Scenario levers are changes versus the model baseline unless explicitly noted.
+# Percentage-point changes use `_pp`; proportional changes use `_pct`.
+
+scenarios:
+  base:
+    label: Base
+    description: Most likely management assumptions.
+    utilization_delta_pp: 0.0
+    billing_rate_change_pct: 0.0
+    dso_delta_days: 0
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 0
+    hiring_months: 0
+    ramp_up_months: 3
+    capex_change_pct: 0.0
+    discretionary_opex_change_pct: 0.0
+
+  upside:
+    label: Upside
+    description: Stronger demand, firmer pricing, and faster customer collections.
+    utilization_delta_pp: 0.03
+    billing_rate_change_pct: 0.025
+    dso_delta_days: -7
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: -0.005
+    incremental_hires: 12
+    hiring_months: 6
+    ramp_up_months: 3
+    capex_change_pct: 0.08
+    discretionary_opex_change_pct: 0.02
+
+  downside:
+    label: Downside
+    description: Softer demand, slower collections, and added salary pressure.
+    utilization_delta_pp: -0.05
+    billing_rate_change_pct: -0.01
+    dso_delta_days: 12
+    dpo_delta_days: 3
+    salary_inflation_delta_pp: 0.02
+    incremental_hires: 0
+    hiring_months: 0
+    ramp_up_months: 4
+    capex_change_pct: -0.10
+    discretionary_opex_change_pct: -0.05
+
+  hiring_expansion:
+    label: Hiring Expansion
+    description: Forty consultants join over six months with a three-month ramp.
+    utilization_delta_pp: -0.015
+    billing_rate_change_pct: 0.0
+    dso_delta_days: 0
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 40
+    hiring_months: 6
+    ramp_up_months: 3
+    capex_change_pct: 0.20
+    discretionary_opex_change_pct: 0.03
+
+  collections_improvement:
+    label: Collections Improvement
+    description: Focused account management and dispute resolution reduce DSO.
+    utilization_delta_pp: 0.0
+    billing_rate_change_pct: 0.0
+    dso_delta_days: -10
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 0
+    hiring_months: 0
+    ramp_up_months: 3
+    capex_change_pct: 0.0
+    discretionary_opex_change_pct: 0.0
+
+  pricing_initiative:
+    label: Pricing Initiative
+    description: A rate increase with a modest near-term utilization trade-off.
+    utilization_delta_pp: -0.01
+    billing_rate_change_pct: 0.05
+    dso_delta_days: 0
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 0
+    hiring_months: 0
+    ramp_up_months: 3
+    capex_change_pct: 0.0
+    discretionary_opex_change_pct: 0.01
+
+  expansion_2026_base:
+    label: 2026 Expansion Decision - Base
+    description: Forty hires over six months, base utilization, and DSO of 58 days.
+    utilization_delta_pp: 0.0
+    billing_rate_change_pct: 0.0
+    dso_target_days: 58
+    dso_delta_days: 0
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 40
+    hiring_months: 6
+    ramp_up_months: 3
+    capex_change_pct: 0.20
+    discretionary_opex_change_pct: 0.03
+
+  expansion_2026_risk:
+    label: 2026 Expansion Decision - Risk
+    description: DSO reaches 70 days, utilization falls five points, and salary inflation rises.
+    utilization_delta_pp: -0.05
+    billing_rate_change_pct: 0.0
+    dso_target_days: 70
+    dso_delta_days: 12
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.02
+    incremental_hires: 40
+    hiring_months: 6
+    ramp_up_months: 3
+    capex_change_pct: 0.20
+    discretionary_opex_change_pct: 0.02
+
+  expansion_2026_mitigation:
+    label: 2026 Expansion Decision - Mitigation
+    description: Hiring is staggered, DSO improves eight days, and rates rise two percent.
+    utilization_delta_pp: 0.0
+    billing_rate_change_pct: 0.02
+    dso_target_days: 50
+    dso_delta_days: -8
+    dpo_delta_days: 0
+    salary_inflation_delta_pp: 0.0
+    incremental_hires: 40
+    hiring_months: 9
+    ramp_up_months: 3
+    capex_change_pct: 0.20
+    discretionary_opex_change_pct: 0.01
+

@@ -1,0 +1,25 @@
+customer_id,customer_name,country,industry,segment,primary_service_line,contract_start_date,payment_terms_days,typical_delay_days,delay_volatility_days,annual_contract_value_eur,credit_risk,revenue_weight,is_key_account
+CUS-001,Rheinwerk Industries GmbH,Germany,Industrial,Strategic,Digital Transformation,2017-03-31,45,7,6,3520000.0000,Moderate,0.1600,True
+CUS-002,Nordbyte Technology AB,Sweden,Technology,Strategic,Software Engineering,2019-02-13,30,-1,3,2860000.0000,Low,0.1300,True
+CUS-003,Alpine Consumer Group AG,Switzerland,Consumer,Strategic,Data & AI,2018-10-17,60,11,6,2420000.0000,Watch,0.1100,True
+CUS-004,Westhaven Financial NV,Netherlands,Financial Services,Strategic,Cloud Engineering,2018-03-15,60,12,6,1870000.0000,Watch,0.0850,True
+CUS-005,Meridian Mobility SAS,France,Automotive,Strategic,Digital Transformation,2018-03-10,45,5,6,1430000.0000,Moderate,0.0650,True
+CUS-006,Baltic Grid Solutions OY,Finland,Energy,Enterprise,Software Engineering,2019-05-09,45,3,6,521052.6300,Low,0.0237,False
+CUS-007,Orion Health Systems BV,Netherlands,Healthcare,Enterprise,Data & AI,2017-03-27,30,0,3,521052.6300,Low,0.0237,False
+CUS-008,Fjord Commerce AS,Norway,Retail,Enterprise,Cloud Engineering,2018-11-29,30,2,6,521052.6300,Low,0.0237,False
+CUS-009,Lumen Manufacturing GmbH,Germany,Manufacturing,Enterprise,Digital Transformation,2017-07-21,45,6,6,521052.6300,Moderate,0.0237,False
+CUS-010,Crownfield Retail Ltd,United Kingdom,Retail,Enterprise,Software Engineering,2017-04-05,60,9,6,521052.6300,Watch,0.0237,False
+CUS-011,Danube Energy Services GmbH,Germany,Energy,Enterprise,Data & AI,2018-06-11,45,4,6,521052.6300,Moderate,0.0237,False
+CUS-012,Helix Media Group SAS,France,Media,Enterprise,Cloud Engineering,2019-09-03,45,5,6,521052.6300,Moderate,0.0237,False
+CUS-013,Northstar Logistics BV,Netherlands,Logistics,Enterprise,Digital Transformation,2019-01-06,45,2,6,521052.6300,Low,0.0237,False
+CUS-014,Evergreen Telecom AB,Sweden,Telecom,Enterprise,Software Engineering,2019-02-01,30,0,3,521052.6300,Low,0.0237,False
+CUS-015,Aster Insurance SA,Belgium,Insurance,Growth,Data & AI,2018-12-19,60,10,6,521052.6300,Watch,0.0237,False
+CUS-016,Bluegate Foods GmbH,Germany,Food,Growth,Cloud Engineering,2019-02-26,45,4,6,521052.6300,Moderate,0.0237,False
+CUS-017,Keystone Travel Ltd,United Kingdom,Travel,Growth,Digital Transformation,2018-05-29,30,1,6,521052.6300,Low,0.0237,False
+CUS-018,Solstice Devices OY,Finland,Technology,Growth,Software Engineering,2017-05-09,45,3,6,521052.6300,Low,0.0237,False
+CUS-019,Oakline Property NV,Belgium,Real Estate,Growth,Data & AI,2019-04-20,60,8,6,521052.6300,Moderate,0.0237,False
+CUS-020,Vector Automotive GmbH,Germany,Automotive,Growth,Cloud Engineering,2018-03-27,60,12,6,521052.6300,Watch,0.0237,False
+CUS-021,Clarion Learning AB,Sweden,Education,Growth,Digital Transformation,2018-05-16,30,0,3,521052.6300,Low,0.0237,False
+CUS-022,Ember Utilities SAS,France,Utilities,Growth,Software Engineering,2018-01-06,45,4,6,521052.6300,Moderate,0.0237,False
+CUS-023,Silverpeak Analytics BV,Netherlands,Technology,Growth,Data & AI,2017-07-02,30,-1,3,521052.6300,Low,0.0237,False
+CUS-024,Willow Pharma AG,Switzerland,Healthcare,Growth,Cloud Engineering,2019-07-16,60,9,6,521052.6300,Watch,0.0237,False

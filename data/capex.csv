@@ -1,0 +1,145 @@
+capex_id,month,category,description,driver,amount_eur,useful_life_months
+CAP-0001,2020-01-01,New-hire equipment,New-hire equipment - Jan 2020,New hires,9000.0000,36
+CAP-0002,2020-01-01,Laptop replacement,Laptop replacement - Jan 2020,Active headcount / replacement cycle,11578.4878,36
+CAP-0003,2020-02-01,New-hire equipment,New-hire equipment - Feb 2020,New hires,10800.0000,36
+CAP-0004,2020-02-01,Laptop replacement,Laptop replacement - Feb 2020,Active headcount / replacement cycle,11704.3194,36
+CAP-0005,2020-03-01,Laptop replacement,Laptop replacement - Mar 2020,Active headcount / replacement cycle,11116.5210,36
+CAP-0006,2020-04-01,Laptop replacement,Laptop replacement - Apr 2020,Active headcount / replacement cycle,10510.1173,36
+CAP-0007,2020-05-01,Laptop replacement,Laptop replacement - May 2020,Active headcount / replacement cycle,11192.7430,36
+CAP-0008,2020-06-01,New-hire equipment,New-hire equipment - Jun 2020,New hires,1800.0000,36
+CAP-0009,2020-06-01,Laptop replacement,Laptop replacement - Jun 2020,Active headcount / replacement cycle,9429.7677,36
+CAP-0010,2020-07-01,New-hire equipment,New-hire equipment - Jul 2020,New hires,3600.0000,36
+CAP-0011,2020-07-01,Laptop replacement,Laptop replacement - Jul 2020,Active headcount / replacement cycle,10634.1239,36
+CAP-0012,2020-08-01,New-hire equipment,New-hire equipment - Aug 2020,New hires,3600.0000,36
+CAP-0013,2020-08-01,Laptop replacement,Laptop replacement - Aug 2020,Active headcount / replacement cycle,10532.8559,36
+CAP-0014,2020-09-01,Laptop replacement,Laptop replacement - Sep 2020,Active headcount / replacement cycle,10540.4623,36
+CAP-0015,2020-10-01,New-hire equipment,New-hire equipment - Oct 2020,New hires,1800.0000,36
+CAP-0016,2020-10-01,Laptop replacement,Laptop replacement - Oct 2020,Active headcount / replacement cycle,10344.5770,36
+CAP-0017,2020-11-01,New-hire equipment,New-hire equipment - Nov 2020,New hires,5400.0000,36
+CAP-0018,2020-11-01,Laptop replacement,Laptop replacement - Nov 2020,Active headcount / replacement cycle,11041.9573,36
+CAP-0019,2020-12-01,New-hire equipment,New-hire equipment - Dec 2020,New hires,7200.0000,36
+CAP-0020,2020-12-01,Laptop replacement,Laptop replacement - Dec 2020,Active headcount / replacement cycle,11194.4008,36
+CAP-0021,2021-01-01,New-hire equipment,New-hire equipment - Jan 2021,New hires,7200.0000,36
+CAP-0022,2021-01-01,Laptop replacement,Laptop replacement - Jan 2021,Active headcount / replacement cycle,9936.8280,36
+CAP-0023,2021-02-01,New-hire equipment,New-hire equipment - Feb 2021,New hires,10800.0000,36
+CAP-0024,2021-02-01,Laptop replacement,Laptop replacement - Feb 2021,Active headcount / replacement cycle,10118.7605,36
+CAP-0025,2021-03-01,New-hire equipment,New-hire equipment - Mar 2021,New hires,9000.0000,36
+CAP-0026,2021-03-01,Laptop replacement,Laptop replacement - Mar 2021,Active headcount / replacement cycle,9194.2298,36
+CAP-0027,2021-04-01,New-hire equipment,New-hire equipment - Apr 2021,New hires,10800.0000,36
+CAP-0028,2021-04-01,Laptop replacement,Laptop replacement - Apr 2021,Active headcount / replacement cycle,9577.7734,36
+CAP-0029,2021-05-01,New-hire equipment,New-hire equipment - May 2021,New hires,7200.0000,36
+CAP-0030,2021-05-01,Laptop replacement,Laptop replacement - May 2021,Active headcount / replacement cycle,10136.9914,36
+CAP-0031,2021-06-01,New-hire equipment,New-hire equipment - Jun 2021,New hires,16200.0000,36
+CAP-0032,2021-06-01,Laptop replacement,Laptop replacement - Jun 2021,Active headcount / replacement cycle,12133.2760,36
+CAP-0033,2021-07-01,New-hire equipment,New-hire equipment - Jul 2021,New hires,14400.0000,36
+CAP-0034,2021-07-01,Laptop replacement,Laptop replacement - Jul 2021,Active headcount / replacement cycle,12505.0231,36
+CAP-0035,2021-08-01,New-hire equipment,New-hire equipment - Aug 2021,New hires,5400.0000,36
+CAP-0036,2021-08-01,Laptop replacement,Laptop replacement - Aug 2021,Active headcount / replacement cycle,10648.6267,36
+CAP-0037,2021-09-01,New-hire equipment,New-hire equipment - Sep 2021,New hires,7200.0000,36
+CAP-0038,2021-09-01,Laptop replacement,Laptop replacement - Sep 2021,Active headcount / replacement cycle,12842.0027,36
+CAP-0039,2021-10-01,New-hire equipment,New-hire equipment - Oct 2021,New hires,12600.0000,36
+CAP-0040,2021-10-01,Laptop replacement,Laptop replacement - Oct 2021,Active headcount / replacement cycle,11322.5321,36
+CAP-0041,2021-10-01,Office improvements,Office improvements - Oct 2021,Management investment plan,165000.0000,60
+CAP-0042,2021-11-01,New-hire equipment,New-hire equipment - Nov 2021,New hires,14400.0000,36
+CAP-0043,2021-11-01,Laptop replacement,Laptop replacement - Nov 2021,Active headcount / replacement cycle,13076.0132,36
+CAP-0044,2021-12-01,New-hire equipment,New-hire equipment - Dec 2021,New hires,12600.0000,36
+CAP-0045,2021-12-01,Laptop replacement,Laptop replacement - Dec 2021,Active headcount / replacement cycle,12042.9328,36
+CAP-0046,2022-01-01,New-hire equipment,New-hire equipment - Jan 2022,New hires,14400.0000,36
+CAP-0047,2022-01-01,Laptop replacement,Laptop replacement - Jan 2022,Active headcount / replacement cycle,13196.7840,36
+CAP-0048,2022-02-01,New-hire equipment,New-hire equipment - Feb 2022,New hires,19800.0000,36
+CAP-0049,2022-02-01,Laptop replacement,Laptop replacement - Feb 2022,Active headcount / replacement cycle,12217.6747,36
+CAP-0050,2022-03-01,New-hire equipment,New-hire equipment - Mar 2022,New hires,19800.0000,36
+CAP-0051,2022-03-01,Laptop replacement,Laptop replacement - Mar 2022,Active headcount / replacement cycle,11333.8354,36
+CAP-0052,2022-04-01,New-hire equipment,New-hire equipment - Apr 2022,New hires,16200.0000,36
+CAP-0053,2022-04-01,Laptop replacement,Laptop replacement - Apr 2022,Active headcount / replacement cycle,12273.6413,36
+CAP-0054,2022-05-01,New-hire equipment,New-hire equipment - May 2022,New hires,19800.0000,36
+CAP-0055,2022-05-01,Laptop replacement,Laptop replacement - May 2022,Active headcount / replacement cycle,14290.8557,36
+CAP-0056,2022-06-01,New-hire equipment,New-hire equipment - Jun 2022,New hires,18000.0000,36
+CAP-0057,2022-06-01,Laptop replacement,Laptop replacement - Jun 2022,Active headcount / replacement cycle,15411.5511,36
+CAP-0058,2022-07-01,New-hire equipment,New-hire equipment - Jul 2022,New hires,23400.0000,36
+CAP-0059,2022-07-01,Laptop replacement,Laptop replacement - Jul 2022,Active headcount / replacement cycle,14556.1327,36
+CAP-0060,2022-08-01,New-hire equipment,New-hire equipment - Aug 2022,New hires,14400.0000,36
+CAP-0061,2022-08-01,Laptop replacement,Laptop replacement - Aug 2022,Active headcount / replacement cycle,15147.6161,36
+CAP-0062,2022-09-01,New-hire equipment,New-hire equipment - Sep 2022,New hires,9000.0000,36
+CAP-0063,2022-09-01,Laptop replacement,Laptop replacement - Sep 2022,Active headcount / replacement cycle,12042.3691,36
+CAP-0064,2022-10-01,New-hire equipment,New-hire equipment - Oct 2022,New hires,19800.0000,36
+CAP-0065,2022-10-01,Laptop replacement,Laptop replacement - Oct 2022,Active headcount / replacement cycle,15414.1732,36
+CAP-0066,2022-11-01,New-hire equipment,New-hire equipment - Nov 2022,New hires,19800.0000,36
+CAP-0067,2022-11-01,Laptop replacement,Laptop replacement - Nov 2022,Active headcount / replacement cycle,16136.9169,36
+CAP-0068,2022-11-01,Strategic technology,Strategic technology - Nov 2022,Management investment plan,245000.0000,48
+CAP-0069,2022-12-01,New-hire equipment,New-hire equipment - Dec 2022,New hires,19800.0000,36
+CAP-0070,2022-12-01,Laptop replacement,Laptop replacement - Dec 2022,Active headcount / replacement cycle,14473.0338,36
+CAP-0071,2023-01-01,New-hire equipment,New-hire equipment - Jan 2023,New hires,14400.0000,36
+CAP-0072,2023-01-01,Laptop replacement,Laptop replacement - Jan 2023,Active headcount / replacement cycle,14835.2630,36
+CAP-0073,2023-02-01,New-hire equipment,New-hire equipment - Feb 2023,New hires,16200.0000,36
+CAP-0074,2023-02-01,Laptop replacement,Laptop replacement - Feb 2023,Active headcount / replacement cycle,13040.9883,36
+CAP-0075,2023-03-01,New-hire equipment,New-hire equipment - Mar 2023,New hires,16200.0000,36
+CAP-0076,2023-03-01,Laptop replacement,Laptop replacement - Mar 2023,Active headcount / replacement cycle,13847.9372,36
+CAP-0077,2023-04-01,New-hire equipment,New-hire equipment - Apr 2023,New hires,16200.0000,36
+CAP-0078,2023-04-01,Laptop replacement,Laptop replacement - Apr 2023,Active headcount / replacement cycle,13478.5578,36
+CAP-0079,2023-05-01,New-hire equipment,New-hire equipment - May 2023,New hires,19800.0000,36
+CAP-0080,2023-05-01,Laptop replacement,Laptop replacement - May 2023,Active headcount / replacement cycle,16884.8036,36
+CAP-0081,2023-06-01,New-hire equipment,New-hire equipment - Jun 2023,New hires,16200.0000,36
+CAP-0082,2023-06-01,Laptop replacement,Laptop replacement - Jun 2023,Active headcount / replacement cycle,17428.7506,36
+CAP-0083,2023-07-01,New-hire equipment,New-hire equipment - Jul 2023,New hires,3600.0000,36
+CAP-0084,2023-07-01,Laptop replacement,Laptop replacement - Jul 2023,Active headcount / replacement cycle,14077.4709,36
+CAP-0085,2023-08-01,New-hire equipment,New-hire equipment - Aug 2023,New hires,1800.0000,36
+CAP-0086,2023-08-01,Laptop replacement,Laptop replacement - Aug 2023,Active headcount / replacement cycle,17740.4767,36
+CAP-0087,2023-09-01,New-hire equipment,New-hire equipment - Sep 2023,New hires,3600.0000,36
+CAP-0088,2023-09-01,Laptop replacement,Laptop replacement - Sep 2023,Active headcount / replacement cycle,17219.5919,36
+CAP-0089,2023-10-01,New-hire equipment,New-hire equipment - Oct 2023,New hires,1800.0000,36
+CAP-0090,2023-10-01,Laptop replacement,Laptop replacement - Oct 2023,Active headcount / replacement cycle,15861.8285,36
+CAP-0091,2023-11-01,New-hire equipment,New-hire equipment - Nov 2023,New hires,5400.0000,36
+CAP-0092,2023-11-01,Laptop replacement,Laptop replacement - Nov 2023,Active headcount / replacement cycle,17501.6951,36
+CAP-0093,2023-12-01,New-hire equipment,New-hire equipment - Dec 2023,New hires,3600.0000,36
+CAP-0094,2023-12-01,Laptop replacement,Laptop replacement - Dec 2023,Active headcount / replacement cycle,17061.7195,36
+CAP-0095,2024-01-01,New-hire equipment,New-hire equipment - Jan 2024,New hires,1800.0000,36
+CAP-0096,2024-01-01,Laptop replacement,Laptop replacement - Jan 2024,Active headcount / replacement cycle,13921.2400,36
+CAP-0097,2024-02-01,New-hire equipment,New-hire equipment - Feb 2024,New hires,1800.0000,36
+CAP-0098,2024-02-01,Laptop replacement,Laptop replacement - Feb 2024,Active headcount / replacement cycle,17069.9878,36
+CAP-0099,2024-03-01,New-hire equipment,New-hire equipment - Mar 2024,New hires,3600.0000,36
+CAP-0100,2024-03-01,Laptop replacement,Laptop replacement - Mar 2024,Active headcount / replacement cycle,14766.5244,36
+CAP-0101,2024-04-01,New-hire equipment,New-hire equipment - Apr 2024,New hires,7200.0000,36
+CAP-0102,2024-04-01,Laptop replacement,Laptop replacement - Apr 2024,Active headcount / replacement cycle,13431.9556,36
+CAP-0103,2024-05-01,New-hire equipment,New-hire equipment - May 2024,New hires,7200.0000,36
+CAP-0104,2024-05-01,Laptop replacement,Laptop replacement - May 2024,Active headcount / replacement cycle,13635.2368,36
+CAP-0105,2024-06-01,New-hire equipment,New-hire equipment - Jun 2024,New hires,9000.0000,36
+CAP-0106,2024-06-01,Laptop replacement,Laptop replacement - Jun 2024,Active headcount / replacement cycle,15853.7912,36
+CAP-0107,2024-06-01,Office improvements,Office improvements - Jun 2024,Management investment plan,185000.0000,60
+CAP-0108,2024-07-01,New-hire equipment,New-hire equipment - Jul 2024,New hires,9000.0000,36
+CAP-0109,2024-07-01,Laptop replacement,Laptop replacement - Jul 2024,Active headcount / replacement cycle,17267.2466,36
+CAP-0110,2024-08-01,New-hire equipment,New-hire equipment - Aug 2024,New hires,5400.0000,36
+CAP-0111,2024-08-01,Laptop replacement,Laptop replacement - Aug 2024,Active headcount / replacement cycle,14816.5626,36
+CAP-0112,2024-09-01,New-hire equipment,New-hire equipment - Sep 2024,New hires,3600.0000,36
+CAP-0113,2024-09-01,Laptop replacement,Laptop replacement - Sep 2024,Active headcount / replacement cycle,15312.0740,36
+CAP-0114,2024-10-01,New-hire equipment,New-hire equipment - Oct 2024,New hires,10800.0000,36
+CAP-0115,2024-10-01,Laptop replacement,Laptop replacement - Oct 2024,Active headcount / replacement cycle,14199.0023,36
+CAP-0116,2024-11-01,New-hire equipment,New-hire equipment - Nov 2024,New hires,9000.0000,36
+CAP-0117,2024-11-01,Laptop replacement,Laptop replacement - Nov 2024,Active headcount / replacement cycle,16758.4252,36
+CAP-0118,2024-12-01,New-hire equipment,New-hire equipment - Dec 2024,New hires,9000.0000,36
+CAP-0119,2024-12-01,Laptop replacement,Laptop replacement - Dec 2024,Active headcount / replacement cycle,13538.4800,36
+CAP-0120,2025-01-01,New-hire equipment,New-hire equipment - Jan 2025,New hires,9000.0000,36
+CAP-0121,2025-01-01,Laptop replacement,Laptop replacement - Jan 2025,Active headcount / replacement cycle,15683.2080,36
+CAP-0122,2025-02-01,New-hire equipment,New-hire equipment - Feb 2025,New hires,7200.0000,36
+CAP-0123,2025-02-01,Laptop replacement,Laptop replacement - Feb 2025,Active headcount / replacement cycle,15825.4101,36
+CAP-0124,2025-03-01,New-hire equipment,New-hire equipment - Mar 2025,New hires,10800.0000,36
+CAP-0125,2025-03-01,Laptop replacement,Laptop replacement - Mar 2025,Active headcount / replacement cycle,13186.2049,36
+CAP-0126,2025-04-01,New-hire equipment,New-hire equipment - Apr 2025,New hires,12600.0000,36
+CAP-0127,2025-04-01,Laptop replacement,Laptop replacement - Apr 2025,Active headcount / replacement cycle,17738.8823,36
+CAP-0128,2025-05-01,New-hire equipment,New-hire equipment - May 2025,New hires,14400.0000,36
+CAP-0129,2025-05-01,Laptop replacement,Laptop replacement - May 2025,Active headcount / replacement cycle,17897.6624,36
+CAP-0130,2025-06-01,New-hire equipment,New-hire equipment - Jun 2025,New hires,10800.0000,36
+CAP-0131,2025-06-01,Laptop replacement,Laptop replacement - Jun 2025,Active headcount / replacement cycle,15714.5909,36
+CAP-0132,2025-07-01,New-hire equipment,New-hire equipment - Jul 2025,New hires,12600.0000,36
+CAP-0133,2025-07-01,Laptop replacement,Laptop replacement - Jul 2025,Active headcount / replacement cycle,17072.6993,36
+CAP-0134,2025-08-01,New-hire equipment,New-hire equipment - Aug 2025,New hires,10800.0000,36
+CAP-0135,2025-08-01,Laptop replacement,Laptop replacement - Aug 2025,Active headcount / replacement cycle,17752.0608,36
+CAP-0136,2025-09-01,New-hire equipment,New-hire equipment - Sep 2025,New hires,5400.0000,36
+CAP-0137,2025-09-01,Laptop replacement,Laptop replacement - Sep 2025,Active headcount / replacement cycle,14294.1648,36
+CAP-0138,2025-09-01,Strategic technology,Strategic technology - Sep 2025,Management investment plan,210000.0000,48
+CAP-0139,2025-10-01,New-hire equipment,New-hire equipment - Oct 2025,New hires,10800.0000,36
+CAP-0140,2025-10-01,Laptop replacement,Laptop replacement - Oct 2025,Active headcount / replacement cycle,14209.2116,36
+CAP-0141,2025-11-01,New-hire equipment,New-hire equipment - Nov 2025,New hires,14400.0000,36
+CAP-0142,2025-11-01,Laptop replacement,Laptop replacement - Nov 2025,Active headcount / replacement cycle,17366.6307,36
+CAP-0143,2025-12-01,New-hire equipment,New-hire equipment - Dec 2025,New hires,14400.0000,36
+CAP-0144,2025-12-01,Laptop replacement,Laptop replacement - Dec 2025,Active headcount / replacement cycle,16849.6204,36

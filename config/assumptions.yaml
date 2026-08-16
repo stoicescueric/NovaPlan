@@ -1,0 +1,101 @@
+# NovaPlan illustrative financial assumptions.
+# These values describe a fictional company and are not tax, accounting, or salary advice.
+
+company:
+  name: NovaBridge Digital SRL
+  industry: IT consulting and software engineering
+  locations:
+    - Bucharest
+    - Cluj-Napoca
+  reporting_currency: EUR
+
+simulation:
+  seed: 42
+  history_start: 2020-01-01
+  history_end: 2025-12-01
+  hours_per_day: 8.0
+  as_of_date: 2025-12-31
+
+workforce:
+  opening_headcount: 272
+  employer_oncost_rate: 0.0225
+  benefits_per_employee_month_eur: 205
+  default_bonus_percent: 0.06
+  annual_salary_review_month: 4
+  new_hire_productivity_ramp:
+    month_1: 0.35
+    month_2: 0.65
+    month_3: 0.85
+    steady_state: 1.0
+  levels:
+    Junior:
+      opening_mix: 0.22
+      billable: true
+      annual_salary_2020_eur: 16800
+      billing_rate_2020_eur: 41
+      expected_utilization: 0.78
+      bonus_percent: 0.03
+    Mid:
+      opening_mix: 0.32
+      billable: true
+      annual_salary_2020_eur: 26000
+      billing_rate_2020_eur: 58
+      expected_utilization: 0.77
+      bonus_percent: 0.05
+    Senior:
+      opening_mix: 0.22
+      billable: true
+      annual_salary_2020_eur: 37500
+      billing_rate_2020_eur: 76
+      expected_utilization: 0.74
+      bonus_percent: 0.08
+    Manager / Leadership:
+      opening_mix: 0.07
+      billable: true
+      annual_salary_2020_eur: 52500
+      billing_rate_2020_eur: 98
+      expected_utilization: 0.63
+      bonus_percent: 0.12
+    Non-billable support:
+      opening_mix: 0.17
+      billable: false
+      annual_salary_2020_eur: 21800
+      billing_rate_2020_eur: 0
+      expected_utilization: 0.0
+      bonus_percent: 0.05
+
+revenue:
+  opening_backlog_eur: 5200000
+  base_realization_rate: 0.965
+  annual_rate_review_month: 1
+  contractor_markup: 1.42
+
+working_capital:
+  opening_accounts_receivable_eur: 2520000
+  opening_accounts_payable_eur: 670000
+  base_dpo_days: 37
+  opening_ar_collection_months: 3
+  writeoff_rate: 0.0005
+
+cash:
+  opening_cash_eur: 4700000
+  minimum_cash_threshold_eur: 3000000
+  annual_distribution_month: 5
+  distribution_share_of_prior_year_net_income: 0.60
+
+capex:
+  equipment_per_new_hire_eur: 1800
+  replacement_laptop_eur: 1450
+  laptop_useful_life_months: 36
+  office_improvement_useful_life_months: 60
+  strategic_technology_useful_life_months: 48
+
+tax:
+  illustrative_corporate_tax_rate: 0.16
+  note: Simplified illustrative financial assumption; not authoritative Romanian tax guidance.
+
+forecast:
+  monthly_horizon: 18
+  liquidity_horizon_weeks: 13
+  monte_carlo_simulations: 10000
+  monte_carlo_seed: 42

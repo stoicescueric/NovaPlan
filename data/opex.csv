@@ -1,0 +1,793 @@
+month,category,cost_type,driver,payment_delay_days,amount_eur
+2020-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,53022.9755
+2020-01-01,Cloud usage,Variable,Revenue and project workload,30,33716.4312
+2020-01-01,Software licenses,Semi-variable,Headcount,30,27744.0000
+2020-01-01,Travel,Variable,Revenue and delivery seasonality,20,28060.9271
+2020-01-01,Recruitment,Variable,New hires,20,11250.0000
+2020-01-01,Sales commissions,Variable,Recognized revenue,30,20785.8719
+2020-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,77947.0196
+2020-01-01,Office rent,Fixed,Lease plan,30,102000.0000
+2020-01-01,Professional services,Fixed,Annual operating plan,35,74201.0083
+2020-01-01,Insurance and administration,Fixed,Annual operating plan,30,107881.7568
+2020-01-01,Corporate overhead,Fixed,Annual operating plan,30,80332.0591
+2020-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,47974.3285
+2020-02-01,Cloud usage,Variable,Revenue and project workload,30,30705.3203
+2020-02-01,Software licenses,Semi-variable,Headcount,30,28050.7036
+2020-02-01,Travel,Variable,Revenue and delivery seasonality,20,25346.6482
+2020-02-01,Recruitment,Variable,New hires,20,13500.0000
+2020-02-01,Sales commissions,Variable,Recognized revenue,30,18775.2949
+2020-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,70407.3561
+2020-02-01,Office rent,Fixed,Lease plan,30,102374.8306
+2020-02-01,Professional services,Fixed,Annual operating plan,35,68808.1813
+2020-02-01,Insurance and administration,Fixed,Annual operating plan,30,100786.4360
+2020-02-01,Corporate overhead,Fixed,Annual operating plan,30,81111.3917
+2020-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,43314.9126
+2020-03-01,Cloud usage,Variable,Revenue and project workload,30,30434.3311
+2020-03-01,Software licenses,Semi-variable,Headcount,30,27537.2783
+2020-03-01,Travel,Variable,Revenue and delivery seasonality,20,4553.1595
+2020-03-01,Recruitment,Variable,New hires,20,0.0000
+2020-03-01,Sales commissions,Variable,Recognized revenue,30,18737.2819
+2020-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,70264.8072
+2020-03-01,Office rent,Fixed,Lease plan,30,102751.0385
+2020-03-01,Professional services,Fixed,Annual operating plan,35,76786.9662
+2020-03-01,Insurance and administration,Fixed,Annual operating plan,30,109634.6112
+2020-03-01,Corporate overhead,Fixed,Annual operating plan,30,81870.8920
+2020-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,55021.5206
+2020-04-01,Cloud usage,Variable,Revenue and project workload,30,28319.8067
+2020-04-01,Software licenses,Semi-variable,Headcount,30,27329.0867
+2020-04-01,Travel,Variable,Revenue and delivery seasonality,20,4264.0618
+2020-04-01,Recruitment,Variable,New hires,20,0.0000
+2020-04-01,Sales commissions,Variable,Recognized revenue,30,17547.5796
+2020-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,65803.4235
+2020-04-01,Office rent,Fixed,Lease plan,30,103128.6290
+2020-04-01,Professional services,Fixed,Annual operating plan,35,75199.3476
+2020-04-01,Insurance and administration,Fixed,Annual operating plan,30,107162.7733
+2020-04-01,Corporate overhead,Fixed,Annual operating plan,30,82556.0991
+2020-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,39868.3496
+2020-05-01,Cloud usage,Variable,Revenue and project workload,30,27369.1093
+2020-05-01,Software licenses,Semi-variable,Headcount,30,27326.0083
+2020-05-01,Travel,Variable,Revenue and delivery seasonality,20,5806.0342
+2020-05-01,Recruitment,Variable,New hires,20,0.0000
+2020-05-01,Sales commissions,Variable,Recognized revenue,30,17203.0644
+2020-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,64511.4915
+2020-05-01,Office rent,Fixed,Lease plan,30,103507.6071
+2020-05-01,Professional services,Fixed,Annual operating plan,35,72782.4334
+2020-05-01,Insurance and administration,Fixed,Annual operating plan,30,104987.3881
+2020-05-01,Corporate overhead,Fixed,Annual operating plan,30,82501.7618
+2020-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,47052.3628
+2020-06-01,Cloud usage,Variable,Revenue and project workload,30,28167.9722
+2020-06-01,Software licenses,Semi-variable,Headcount,30,27114.7622
+2020-06-01,Travel,Variable,Revenue and delivery seasonality,20,6049.9474
+2020-06-01,Recruitment,Variable,New hires,20,2250.0000
+2020-06-01,Sales commissions,Variable,Recognized revenue,30,17925.7700
+2020-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,67221.6376
+2020-06-01,Office rent,Fixed,Lease plan,30,103887.9778
+2020-06-01,Professional services,Fixed,Annual operating plan,35,72291.1099
+2020-06-01,Insurance and administration,Fixed,Annual operating plan,30,102918.2692
+2020-06-01,Corporate overhead,Fixed,Annual operating plan,30,85318.8060
+2020-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,27647.9702
+2020-07-01,Cloud usage,Variable,Revenue and project workload,30,30015.9919
+2020-07-01,Software licenses,Semi-variable,Headcount,30,27110.1340
+2020-07-01,Travel,Variable,Revenue and delivery seasonality,20,3221.9806
+2020-07-01,Recruitment,Variable,New hires,20,4500.0000
+2020-07-01,Sales commissions,Variable,Recognized revenue,30,18358.8640
+2020-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,68845.7401
+2020-07-01,Office rent,Fixed,Lease plan,30,104269.7463
+2020-07-01,Professional services,Fixed,Annual operating plan,35,78436.4221
+2020-07-01,Insurance and administration,Fixed,Annual operating plan,30,107296.3770
+2020-07-01,Corporate overhead,Fixed,Annual operating plan,30,82950.9091
+2020-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,37188.3541
+2020-08-01,Cloud usage,Variable,Revenue and project workload,30,23720.3371
+2020-08-01,Software licenses,Semi-variable,Headcount,30,27209.7586
+2020-08-01,Travel,Variable,Revenue and delivery seasonality,20,2737.5203
+2020-08-01,Recruitment,Variable,New hires,20,4500.0000
+2020-08-01,Sales commissions,Variable,Recognized revenue,30,15598.4062
+2020-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,58494.0233
+2020-08-01,Office rent,Fixed,Lease plan,30,104652.9178
+2020-08-01,Professional services,Fixed,Annual operating plan,35,73995.1148
+2020-08-01,Insurance and administration,Fixed,Annual operating plan,30,108179.7985
+2020-08-01,Corporate overhead,Fixed,Annual operating plan,30,83618.0335
+2020-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,40446.3343
+2020-09-01,Cloud usage,Variable,Revenue and project workload,30,27815.0191
+2020-09-01,Software licenses,Semi-variable,Headcount,30,27204.7118
+2020-09-01,Travel,Variable,Revenue and delivery seasonality,20,6535.9043
+2020-09-01,Recruitment,Variable,New hires,20,0.0000
+2020-09-01,Sales commissions,Variable,Recognized revenue,30,19365.6424
+2020-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,72621.1590
+2020-09-01,Office rent,Fixed,Lease plan,30,105037.4973
+2020-09-01,Professional services,Fixed,Annual operating plan,35,72226.3514
+2020-09-01,Insurance and administration,Fixed,Annual operating plan,30,107145.3167
+2020-09-01,Corporate overhead,Fixed,Annual operating plan,30,86004.6837
+2020-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,45680.0609
+2020-10-01,Cloud usage,Variable,Revenue and project workload,30,27204.7368
+2020-10-01,Software licenses,Semi-variable,Headcount,30,26988.4135
+2020-10-01,Travel,Variable,Revenue and delivery seasonality,20,6399.4372
+2020-10-01,Recruitment,Variable,New hires,20,2250.0000
+2020-10-01,Sales commissions,Variable,Recognized revenue,30,18961.2954
+2020-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,71104.8579
+2020-10-01,Office rent,Fixed,Lease plan,30,105423.4901
+2020-10-01,Professional services,Fixed,Annual operating plan,35,75107.0124
+2020-10-01,Insurance and administration,Fixed,Annual operating plan,30,108084.8242
+2020-10-01,Corporate overhead,Fixed,Annual operating plan,30,83795.4148
+2020-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,36591.5006
+2020-11-01,Cloud usage,Variable,Revenue and project workload,30,26056.0485
+2020-11-01,Software licenses,Semi-variable,Headcount,30,26981.7798
+2020-11-01,Travel,Variable,Revenue and delivery seasonality,20,4152.8592
+2020-11-01,Recruitment,Variable,New hires,20,6750.0000
+2020-11-01,Sales commissions,Variable,Recognized revenue,30,17089.9554
+2020-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,64087.3326
+2020-11-01,Office rent,Fixed,Lease plan,30,105810.9013
+2020-11-01,Professional services,Fixed,Annual operating plan,35,72765.1860
+2020-11-01,Insurance and administration,Fixed,Annual operating plan,30,108265.3993
+2020-11-01,Corporate overhead,Fixed,Annual operating plan,30,87459.9489
+2020-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,45587.7397
+2020-12-01,Cloud usage,Variable,Revenue and project workload,30,28748.0286
+2020-12-01,Software licenses,Semi-variable,Headcount,30,27399.5319
+2020-12-01,Travel,Variable,Revenue and delivery seasonality,20,2962.3887
+2020-12-01,Recruitment,Variable,New hires,20,9000.0000
+2020-12-01,Sales commissions,Variable,Recognized revenue,30,16879.7074
+2020-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,63298.9028
+2020-12-01,Office rent,Fixed,Lease plan,30,106199.7362
+2020-12-01,Professional services,Fixed,Annual operating plan,35,72015.4670
+2020-12-01,Insurance and administration,Fixed,Annual operating plan,30,107775.9243
+2020-12-01,Corporate overhead,Fixed,Annual operating plan,30,80694.4170
+2021-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,42601.6782
+2021-01-01,Cloud usage,Variable,Revenue and project workload,30,28212.2511
+2021-01-01,Software licenses,Semi-variable,Headcount,30,27713.4000
+2021-01-01,Travel,Variable,Revenue and delivery seasonality,20,13139.4532
+2021-01-01,Recruitment,Variable,New hires,20,9000.0000
+2021-01-01,Sales commissions,Variable,Recognized revenue,30,17696.2333
+2021-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,66360.8748
+2021-01-01,Office rent,Fixed,Lease plan,30,106590.0000
+2021-01-01,Professional services,Fixed,Annual operating plan,35,76813.8460
+2021-01-01,Insurance and administration,Fixed,Annual operating plan,30,112948.3015
+2021-01-01,Corporate overhead,Fixed,Annual operating plan,30,81862.9617
+2021-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,61895.7327
+2021-02-01,Cloud usage,Variable,Revenue and project workload,30,28100.4381
+2021-02-01,Software licenses,Semi-variable,Headcount,30,28136.1866
+2021-02-01,Travel,Variable,Revenue and delivery seasonality,20,14150.0091
+2021-02-01,Recruitment,Variable,New hires,20,13500.0000
+2021-02-01,Sales commissions,Variable,Recognized revenue,30,19057.2513
+2021-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,71464.6923
+2021-02-01,Office rent,Fixed,Lease plan,30,106981.6979
+2021-02-01,Professional services,Fixed,Annual operating plan,35,75897.4574
+2021-02-01,Insurance and administration,Fixed,Annual operating plan,30,104666.0584
+2021-02-01,Corporate overhead,Fixed,Annual operating plan,30,86375.1716
+2021-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,64787.0409
+2021-03-01,Cloud usage,Variable,Revenue and project workload,30,36344.0142
+2021-03-01,Software licenses,Semi-variable,Headcount,30,28669.0810
+2021-03-01,Travel,Variable,Revenue and delivery seasonality,20,16398.2011
+2021-03-01,Recruitment,Variable,New hires,20,11250.0000
+2021-03-01,Sales commissions,Variable,Recognized revenue,30,22085.1193
+2021-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,82819.1975
+2021-03-01,Office rent,Fixed,Lease plan,30,107374.8353
+2021-03-01,Professional services,Fixed,Annual operating plan,35,72395.0141
+2021-03-01,Insurance and administration,Fixed,Annual operating plan,30,109843.1111
+2021-03-01,Corporate overhead,Fixed,Annual operating plan,30,83704.9661
+2021-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,49887.9005
+2021-04-01,Cloud usage,Variable,Revenue and project workload,30,32433.8146
+2021-04-01,Software licenses,Semi-variable,Headcount,30,28989.9733
+2021-04-01,Travel,Variable,Revenue and delivery seasonality,20,13994.0986
+2021-04-01,Recruitment,Variable,New hires,20,13500.0000
+2021-04-01,Sales commissions,Variable,Recognized revenue,30,18847.2708
+2021-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,70677.2657
+2021-04-01,Office rent,Fixed,Lease plan,30,107769.4173
+2021-04-01,Professional services,Fixed,Annual operating plan,35,76622.7331
+2021-04-01,Insurance and administration,Fixed,Annual operating plan,30,108124.2466
+2021-04-01,Corporate overhead,Fixed,Annual operating plan,30,83956.4018
+2021-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,68071.4297
+2021-05-01,Cloud usage,Variable,Revenue and project workload,30,32169.7672
+2021-05-01,Software licenses,Semi-variable,Headcount,30,29312.8368
+2021-05-01,Travel,Variable,Revenue and delivery seasonality,20,20450.0583
+2021-05-01,Recruitment,Variable,New hires,20,9000.0000
+2021-05-01,Sales commissions,Variable,Recognized revenue,30,19830.3596
+2021-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,74363.8484
+2021-05-01,Office rent,Fixed,Lease plan,30,108165.4494
+2021-05-01,Professional services,Fixed,Annual operating plan,35,79980.9240
+2021-05-01,Insurance and administration,Fixed,Annual operating plan,30,108159.1820
+2021-05-01,Corporate overhead,Fixed,Annual operating plan,30,86000.7883
+2021-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,63701.7374
+2021-06-01,Cloud usage,Variable,Revenue and project workload,30,31075.9302
+2021-06-01,Software licenses,Semi-variable,Headcount,30,30289.0594
+2021-06-01,Travel,Variable,Revenue and delivery seasonality,20,21249.6809
+2021-06-01,Recruitment,Variable,New hires,20,20250.0000
+2021-06-01,Sales commissions,Variable,Recognized revenue,30,20605.7511
+2021-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,77271.5668
+2021-06-01,Office rent,Fixed,Lease plan,30,108562.9368
+2021-06-01,Professional services,Fixed,Annual operating plan,35,80804.7150
+2021-06-01,Insurance and administration,Fixed,Annual operating plan,30,105409.8591
+2021-06-01,Corporate overhead,Fixed,Annual operating plan,30,90081.1251
+2021-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,64893.6554
+2021-07-01,Cloud usage,Variable,Revenue and project workload,30,33038.7870
+2021-07-01,Software licenses,Semi-variable,Headcount,30,31054.1372
+2021-07-01,Travel,Variable,Revenue and delivery seasonality,20,11462.7941
+2021-07-01,Recruitment,Variable,New hires,20,18000.0000
+2021-07-01,Sales commissions,Variable,Recognized revenue,30,21375.8398
+2021-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,80159.3991
+2021-07-01,Office rent,Fixed,Lease plan,30,108961.8849
+2021-07-01,Professional services,Fixed,Annual operating plan,35,76721.4838
+2021-07-01,Insurance and administration,Fixed,Annual operating plan,30,110152.2934
+2021-07-01,Corporate overhead,Fixed,Annual operating plan,30,88121.5163
+2021-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,48463.0745
+2021-08-01,Cloud usage,Variable,Revenue and project workload,30,29544.4721
+2021-08-01,Software licenses,Semi-variable,Headcount,30,31277.6175
+2021-08-01,Travel,Variable,Revenue and delivery seasonality,20,10489.7453
+2021-08-01,Recruitment,Variable,New hires,20,6750.0000
+2021-08-01,Sales commissions,Variable,Recognized revenue,30,19561.2967
+2021-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,73354.8625
+2021-08-01,Office rent,Fixed,Lease plan,30,109362.2991
+2021-08-01,Professional services,Fixed,Annual operating plan,35,80056.5540
+2021-08-01,Insurance and administration,Fixed,Annual operating plan,30,114570.2951
+2021-08-01,Corporate overhead,Fixed,Annual operating plan,30,85757.2096
+2021-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,62030.8830
+2021-09-01,Cloud usage,Variable,Revenue and project workload,30,37711.2546
+2021-09-01,Software licenses,Semi-variable,Headcount,30,31502.3210
+2021-09-01,Travel,Variable,Revenue and delivery seasonality,20,23568.3910
+2021-09-01,Recruitment,Variable,New hires,20,9000.0000
+2021-09-01,Sales commissions,Variable,Recognized revenue,30,22854.1973
+2021-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,85703.2400
+2021-09-01,Office rent,Fixed,Lease plan,30,109764.1847
+2021-09-01,Professional services,Fixed,Annual operating plan,35,76513.8534
+2021-09-01,Insurance and administration,Fixed,Annual operating plan,30,112060.8895
+2021-09-01,Corporate overhead,Fixed,Annual operating plan,30,91606.3469
+2021-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,70900.4962
+2021-10-01,Cloud usage,Variable,Revenue and project workload,30,33599.1314
+2021-10-01,Software licenses,Semi-variable,Headcount,30,32168.9238
+2021-10-01,Travel,Variable,Revenue and delivery seasonality,20,22856.6663
+2021-10-01,Recruitment,Variable,New hires,20,15750.0000
+2021-10-01,Sales commissions,Variable,Recognized revenue,30,22164.0400
+2021-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,83115.1502
+2021-10-01,Office rent,Fixed,Lease plan,30,110167.5471
+2021-10-01,Professional services,Fixed,Annual operating plan,35,80287.1971
+2021-10-01,Insurance and administration,Fixed,Annual operating plan,30,113611.3906
+2021-10-01,Corporate overhead,Fixed,Annual operating plan,30,88136.4596
+2021-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,72502.1187
+2021-11-01,Cloud usage,Variable,Revenue and project workload,30,37137.0105
+2021-11-01,Software licenses,Semi-variable,Headcount,30,32950.5728
+2021-11-01,Travel,Variable,Revenue and delivery seasonality,20,17020.3556
+2021-11-01,Recruitment,Variable,New hires,20,18000.0000
+2021-11-01,Sales commissions,Variable,Recognized revenue,30,22923.0378
+2021-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,85961.3918
+2021-11-01,Office rent,Fixed,Lease plan,30,110572.3919
+2021-11-01,Professional services,Fixed,Annual operating plan,35,78729.7090
+2021-11-01,Insurance and administration,Fixed,Annual operating plan,30,109475.6453
+2021-11-01,Corporate overhead,Fixed,Annual operating plan,30,87543.2154
+2021-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,81439.3039
+2021-12-01,Cloud usage,Variable,Revenue and project workload,30,31369.4992
+2021-12-01,Software licenses,Semi-variable,Headcount,30,33515.5748
+2021-12-01,Travel,Variable,Revenue and delivery seasonality,20,11375.3056
+2021-12-01,Recruitment,Variable,New hires,20,15750.0000
+2021-12-01,Sales commissions,Variable,Recognized revenue,30,21212.6910
+2021-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,79547.5914
+2021-12-01,Office rent,Fixed,Lease plan,30,110978.7243
+2021-12-01,Professional services,Fixed,Annual operating plan,35,77579.4822
+2021-12-01,Insurance and administration,Fixed,Annual operating plan,30,116959.7070
+2021-12-01,Corporate overhead,Fixed,Annual operating plan,30,90514.1464
+2022-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,73723.1899
+2022-01-01,Cloud usage,Variable,Revenue and project workload,30,32405.0522
+2022-01-01,Software licenses,Semi-variable,Headcount,30,34307.0574
+2022-01-01,Travel,Variable,Revenue and delivery seasonality,20,30378.1663
+2022-01-01,Recruitment,Variable,New hires,20,18000.0000
+2022-01-01,Sales commissions,Variable,Recognized revenue,30,22502.3454
+2022-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,84383.7953
+2022-01-01,Office rent,Fixed,Lease plan,30,111386.5500
+2022-01-01,Professional services,Fixed,Annual operating plan,35,77873.5186
+2022-01-01,Insurance and administration,Fixed,Annual operating plan,30,114233.9229
+2022-01-01,Corporate overhead,Fixed,Annual operating plan,30,91211.8046
+2022-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,90424.2668
+2022-02-01,Cloud usage,Variable,Revenue and project workload,30,37503.6443
+2022-02-01,Software licenses,Semi-variable,Headcount,30,35439.2922
+2022-02-01,Travel,Variable,Revenue and delivery seasonality,20,33347.4057
+2022-02-01,Recruitment,Variable,New hires,20,24750.0000
+2022-02-01,Sales commissions,Variable,Recognized revenue,30,24701.7820
+2022-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,92631.6826
+2022-02-01,Office rent,Fixed,Lease plan,30,111795.8743
+2022-02-01,Professional services,Fixed,Annual operating plan,35,75496.9287
+2022-02-01,Insurance and administration,Fixed,Annual operating plan,30,113827.3900
+2022-02-01,Corporate overhead,Fixed,Annual operating plan,30,91153.6548
+2022-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,109643.8202
+2022-03-01,Cloud usage,Variable,Revenue and project workload,30,46261.8073
+2022-03-01,Software licenses,Semi-variable,Headcount,30,36242.7650
+2022-03-01,Travel,Variable,Revenue and delivery seasonality,20,38867.7750
+2022-03-01,Recruitment,Variable,New hires,20,24750.0000
+2022-03-01,Sales commissions,Variable,Recognized revenue,30,28790.9444
+2022-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,107966.0417
+2022-03-01,Office rent,Fixed,Lease plan,30,112206.7029
+2022-03-01,Professional services,Fixed,Annual operating plan,35,76752.2590
+2022-03-01,Insurance and administration,Fixed,Annual operating plan,30,119425.3439
+2022-03-01,Corporate overhead,Fixed,Annual operating plan,30,89982.5462
+2022-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,83634.4260
+2022-04-01,Cloud usage,Variable,Revenue and project workload,30,38244.1560
+2022-04-01,Software licenses,Semi-variable,Headcount,30,37051.6645
+2022-04-01,Travel,Variable,Revenue and delivery seasonality,20,32214.0576
+2022-04-01,Recruitment,Variable,New hires,20,20250.0000
+2022-04-01,Sales commissions,Variable,Recognized revenue,30,23862.2649
+2022-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,89483.4934
+2022-04-01,Office rent,Fixed,Lease plan,30,112619.0411
+2022-04-01,Professional services,Fixed,Annual operating plan,35,77653.9669
+2022-04-01,Insurance and administration,Fixed,Annual operating plan,30,118003.6896
+2022-04-01,Corporate overhead,Fixed,Annual operating plan,30,91831.2070
+2022-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,87284.8793
+2022-05-01,Cloud usage,Variable,Revenue and project workload,30,43474.7735
+2022-05-01,Software licenses,Semi-variable,Headcount,30,37866.0197
+2022-05-01,Travel,Variable,Revenue and delivery seasonality,20,50480.0697
+2022-05-01,Recruitment,Variable,New hires,20,24750.0000
+2022-05-01,Sales commissions,Variable,Recognized revenue,30,26922.7039
+2022-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,100960.1394
+2022-05-01,Office rent,Fixed,Lease plan,30,113032.8946
+2022-05-01,Professional services,Fixed,Annual operating plan,35,76571.8404
+2022-05-01,Insurance and administration,Fixed,Annual operating plan,30,118401.3793
+2022-05-01,Corporate overhead,Fixed,Annual operating plan,30,92589.0684
+2022-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,107134.7373
+2022-06-01,Cloud usage,Variable,Revenue and project workload,30,47003.0602
+2022-06-01,Software licenses,Semi-variable,Headcount,30,38572.4115
+2022-06-01,Travel,Variable,Revenue and delivery seasonality,20,52308.4892
+2022-06-01,Recruitment,Variable,New hires,20,22500.0000
+2022-06-01,Sales commissions,Variable,Recognized revenue,30,27897.8609
+2022-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,104616.9784
+2022-06-01,Office rent,Fixed,Lease plan,30,113448.2690
+2022-06-01,Professional services,Fixed,Annual operating plan,35,80184.9184
+2022-06-01,Insurance and administration,Fixed,Annual operating plan,30,115456.2599
+2022-06-01,Corporate overhead,Fixed,Annual operating plan,30,90788.3226
+2022-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,99301.8095
+2022-07-01,Cloud usage,Variable,Revenue and project workload,30,47383.2189
+2022-07-01,Software licenses,Semi-variable,Headcount,30,39625.0791
+2022-07-01,Travel,Variable,Revenue and delivery seasonality,20,25506.7322
+2022-07-01,Recruitment,Variable,New hires,20,29250.0000
+2022-07-01,Sales commissions,Variable,Recognized revenue,30,26160.7510
+2022-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,98102.8162
+2022-07-01,Office rent,Fixed,Lease plan,30,113865.1697
+2022-07-01,Professional services,Fixed,Annual operating plan,35,78849.4369
+2022-07-01,Insurance and administration,Fixed,Annual operating plan,30,112654.8091
+2022-07-01,Corporate overhead,Fixed,Annual operating plan,30,90684.4816
+2022-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,64347.4030
+2022-08-01,Cloud usage,Variable,Revenue and project workload,30,39829.0665
+2022-08-01,Software licenses,Semi-variable,Headcount,30,39770.6937
+2022-08-01,Travel,Variable,Revenue and delivery seasonality,20,25380.9256
+2022-08-01,Recruitment,Variable,New hires,20,18000.0000
+2022-08-01,Sales commissions,Variable,Recognized revenue,30,26031.7186
+2022-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,97618.9446
+2022-08-01,Office rent,Fixed,Lease plan,30,114283.6025
+2022-08-01,Professional services,Fixed,Annual operating plan,35,84227.9271
+2022-08-01,Insurance and administration,Fixed,Annual operating plan,30,112574.3005
+2022-08-01,Corporate overhead,Fixed,Annual operating plan,30,90585.8374
+2022-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,90881.0941
+2022-09-01,Cloud usage,Variable,Revenue and project workload,30,47826.3393
+2022-09-01,Software licenses,Semi-variable,Headcount,30,40146.2505
+2022-09-01,Travel,Variable,Revenue and delivery seasonality,20,55963.0487
+2022-09-01,Recruitment,Variable,New hires,20,11250.0000
+2022-09-01,Sales commissions,Variable,Recognized revenue,30,29846.9593
+2022-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,111926.0973
+2022-09-01,Office rent,Fixed,Lease plan,30,114703.5730
+2022-09-01,Professional services,Fixed,Annual operating plan,35,84561.3835
+2022-09-01,Insurance and administration,Fixed,Annual operating plan,30,119037.7307
+2022-09-01,Corporate overhead,Fixed,Annual operating plan,30,95945.0244
+2022-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,87315.5512
+2022-10-01,Cloud usage,Variable,Revenue and project workload,30,47009.1176
+2022-10-01,Software licenses,Semi-variable,Headcount,30,40869.4058
+2022-10-01,Travel,Variable,Revenue and delivery seasonality,20,54478.8972
+2022-10-01,Recruitment,Variable,New hires,20,24750.0000
+2022-10-01,Sales commissions,Variable,Recognized revenue,30,29055.4118
+2022-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,108957.7944
+2022-10-01,Office rent,Fixed,Lease plan,30,115125.0868
+2022-10-01,Professional services,Fixed,Annual operating plan,35,80685.6190
+2022-10-01,Insurance and administration,Fixed,Annual operating plan,30,119893.1243
+2022-10-01,Corporate overhead,Fixed,Annual operating plan,30,89388.2191
+2022-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,92701.9661
+2022-11-01,Cloud usage,Variable,Revenue and project workload,30,41703.0220
+2022-11-01,Software licenses,Semi-variable,Headcount,30,42059.5264
+2022-11-01,Travel,Variable,Revenue and delivery seasonality,20,39862.1346
+2022-11-01,Recruitment,Variable,New hires,20,24750.0000
+2022-11-01,Sales commissions,Variable,Recognized revenue,30,29527.5071
+2022-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,110728.1516
+2022-11-01,Office rent,Fixed,Lease plan,30,115548.1495
+2022-11-01,Professional services,Fixed,Annual operating plan,35,84350.3579
+2022-11-01,Insurance and administration,Fixed,Annual operating plan,30,118433.9914
+2022-11-01,Corporate overhead,Fixed,Annual operating plan,30,95130.3472
+2022-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,74752.0128
+2022-12-01,Cloud usage,Variable,Revenue and project workload,30,38597.3323
+2022-12-01,Software licenses,Semi-variable,Headcount,30,42793.9510
+2022-12-01,Travel,Variable,Revenue and delivery seasonality,20,25120.1503
+2022-12-01,Recruitment,Variable,New hires,20,24750.0000
+2022-12-01,Sales commissions,Variable,Recognized revenue,30,25764.2568
+2022-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,96615.9629
+2022-12-01,Office rent,Fixed,Lease plan,30,115972.7669
+2022-12-01,Professional services,Fixed,Annual operating plan,35,85544.3044
+2022-12-01,Insurance and administration,Fixed,Annual operating plan,30,120228.4366
+2022-12-01,Corporate overhead,Fixed,Annual operating plan,30,93160.4725
+2023-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,87689.7668
+2023-01-01,Cloud usage,Variable,Revenue and project workload,30,48826.4524
+2023-01-01,Software licenses,Semi-variable,Headcount,30,42951.2106
+2023-01-01,Travel,Variable,Revenue and delivery seasonality,20,41092.8375
+2023-01-01,Recruitment,Variable,New hires,20,18000.0000
+2023-01-01,Sales commissions,Variable,Recognized revenue,30,30439.1389
+2023-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,114146.7708
+2023-01-01,Office rent,Fixed,Lease plan,30,116398.9447
+2023-01-01,Professional services,Fixed,Annual operating plan,35,83161.6349
+2023-01-01,Insurance and administration,Fixed,Annual operating plan,30,116139.3253
+2023-01-01,Corporate overhead,Fixed,Annual operating plan,30,92674.9228
+2023-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,92912.0464
+2023-02-01,Cloud usage,Variable,Revenue and project workload,30,49592.1347
+2023-02-01,Software licenses,Semi-variable,Headcount,30,43693.1816
+2023-02-01,Travel,Variable,Revenue and delivery seasonality,20,41417.6531
+2023-02-01,Recruitment,Variable,New hires,20,20250.0000
+2023-02-01,Sales commissions,Variable,Recognized revenue,30,30679.7431
+2023-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,115049.0365
+2023-02-01,Office rent,Fixed,Lease plan,30,116826.6887
+2023-02-01,Professional services,Fixed,Annual operating plan,35,81238.8311
+2023-02-01,Insurance and administration,Fixed,Annual operating plan,30,114741.5739
+2023-02-01,Corporate overhead,Fixed,Annual operating plan,30,94611.8899
+2023-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,119066.0803
+2023-03-01,Cloud usage,Variable,Revenue and project workload,30,59601.0080
+2023-03-01,Software licenses,Semi-variable,Headcount,30,44674.5377
+2023-03-01,Travel,Variable,Revenue and delivery seasonality,20,48268.9945
+2023-03-01,Recruitment,Variable,New hires,20,20250.0000
+2023-03-01,Sales commissions,Variable,Recognized revenue,30,35754.8107
+2023-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,134080.5402
+2023-03-01,Office rent,Fixed,Lease plan,30,117256.0045
+2023-03-01,Professional services,Fixed,Annual operating plan,35,85864.3963
+2023-03-01,Insurance and administration,Fixed,Annual operating plan,30,121146.1535
+2023-03-01,Corporate overhead,Fixed,Annual operating plan,30,96193.0668
+2023-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,89667.2042
+2023-04-01,Cloud usage,Variable,Revenue and project workload,30,48771.8805
+2023-04-01,Software licenses,Semi-variable,Headcount,30,45427.1426
+2023-04-01,Travel,Variable,Revenue and delivery seasonality,20,39143.1280
+2023-04-01,Recruitment,Variable,New hires,20,20250.0000
+2023-04-01,Sales commissions,Variable,Recognized revenue,30,28994.9096
+2023-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,108730.9111
+2023-04-01,Office rent,Fixed,Lease plan,30,117686.8980
+2023-04-01,Professional services,Fixed,Annual operating plan,35,83304.7084
+2023-04-01,Insurance and administration,Fixed,Annual operating plan,30,113638.0263
+2023-04-01,Corporate overhead,Fixed,Annual operating plan,30,97354.2382
+2023-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,96650.7449
+2023-05-01,Cloud usage,Variable,Revenue and project workload,30,53672.1828
+2023-05-01,Software licenses,Semi-variable,Headcount,30,46302.7950
+2023-05-01,Travel,Variable,Revenue and delivery seasonality,20,67359.5993
+2023-05-01,Recruitment,Variable,New hires,20,24750.0000
+2023-05-01,Sales commissions,Variable,Recognized revenue,30,35925.1197
+2023-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,134719.1987
+2023-05-01,Office rent,Fixed,Lease plan,30,118119.3749
+2023-05-01,Professional services,Fixed,Annual operating plan,35,80078.2083
+2023-05-01,Insurance and administration,Fixed,Annual operating plan,30,117113.2070
+2023-05-01,Corporate overhead,Fixed,Annual operating plan,30,100857.0212
+2023-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,115894.0961
+2023-06-01,Cloud usage,Variable,Revenue and project workload,30,56280.6028
+2023-06-01,Software licenses,Semi-variable,Headcount,30,47065.7161
+2023-06-01,Travel,Variable,Revenue and delivery seasonality,20,64843.8625
+2023-06-01,Recruitment,Variable,New hires,20,20250.0000
+2023-06-01,Sales commissions,Variable,Recognized revenue,30,34583.3933
+2023-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,129687.7249
+2023-06-01,Office rent,Fixed,Lease plan,30,118553.4411
+2023-06-01,Professional services,Fixed,Annual operating plan,35,80633.9215
+2023-06-01,Insurance and administration,Fixed,Annual operating plan,30,118812.7678
+2023-06-01,Corporate overhead,Fixed,Annual operating plan,30,95305.9409
+2023-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,56283.0749
+2023-07-01,Cloud usage,Variable,Revenue and project workload,30,48625.1236
+2023-07-01,Software licenses,Semi-variable,Headcount,30,47119.6845
+2023-07-01,Travel,Variable,Revenue and delivery seasonality,20,28951.0605
+2023-07-01,Recruitment,Variable,New hires,20,4500.0000
+2023-07-01,Sales commissions,Variable,Recognized revenue,30,29693.3954
+2023-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,111350.2326
+2023-07-01,Office rent,Fixed,Lease plan,30,118989.1024
+2023-07-01,Professional services,Fixed,Annual operating plan,35,84813.3518
+2023-07-01,Insurance and administration,Fixed,Annual operating plan,30,118505.7071
+2023-07-01,Corporate overhead,Fixed,Annual operating plan,30,96416.3452
+2023-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,39988.7806
+2023-08-01,Cloud usage,Variable,Revenue and project workload,30,45091.2340
+2023-08-01,Software licenses,Semi-variable,Headcount,30,46695.7086
+2023-08-01,Travel,Variable,Revenue and delivery seasonality,20,28881.5746
+2023-08-01,Recruitment,Variable,New hires,20,2250.0000
+2023-08-01,Sales commissions,Variable,Recognized revenue,30,29622.1278
+2023-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,111082.9792
+2023-08-01,Office rent,Fixed,Lease plan,30,119426.3646
+2023-08-01,Professional services,Fixed,Annual operating plan,35,87389.9213
+2023-08-01,Insurance and administration,Fixed,Annual operating plan,30,121939.4363
+2023-08-01,Corporate overhead,Fixed,Annual operating plan,30,94186.8495
+2023-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,53640.2270
+2023-09-01,Cloud usage,Variable,Revenue and project workload,30,51345.9798
+2023-09-01,Software licenses,Semi-variable,Headcount,30,46507.7107
+2023-09-01,Travel,Variable,Revenue and delivery seasonality,20,58268.9972
+2023-09-01,Recruitment,Variable,New hires,20,4500.0000
+2023-09-01,Sales commissions,Variable,Recognized revenue,30,31076.7985
+2023-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,116537.9944
+2023-09-01,Office rent,Fixed,Lease plan,30,119865.2338
+2023-09-01,Professional services,Fixed,Annual operating plan,35,85745.6858
+2023-09-01,Insurance and administration,Fixed,Annual operating plan,30,120764.6334
+2023-09-01,Corporate overhead,Fixed,Annual operating plan,30,98121.0795
+2023-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,57224.8763
+2023-10-01,Cloud usage,Variable,Revenue and project workload,30,54200.2294
+2023-10-01,Software licenses,Semi-variable,Headcount,30,46317.7005
+2023-10-01,Travel,Variable,Revenue and delivery seasonality,20,61731.6544
+2023-10-01,Recruitment,Variable,New hires,20,2250.0000
+2023-10-01,Sales commissions,Variable,Recognized revenue,30,32923.5490
+2023-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,123463.3087
+2023-10-01,Office rent,Fixed,Lease plan,30,120305.7157
+2023-10-01,Professional services,Fixed,Annual operating plan,35,88493.8083
+2023-10-01,Insurance and administration,Fixed,Annual operating plan,30,124842.3736
+2023-10-01,Corporate overhead,Fixed,Annual operating plan,30,96199.0556
+2023-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,55852.2416
+2023-11-01,Cloud usage,Variable,Revenue and project workload,30,44795.7329
+2023-11-01,Software licenses,Semi-variable,Headcount,30,45884.1702
+2023-11-01,Travel,Variable,Revenue and delivery seasonality,20,42759.7254
+2023-11-01,Recruitment,Variable,New hires,20,6750.0000
+2023-11-01,Sales commissions,Variable,Recognized revenue,30,31673.8707
+2023-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,118777.0150
+2023-11-01,Office rent,Fixed,Lease plan,30,120747.8162
+2023-11-01,Professional services,Fixed,Annual operating plan,35,85790.5533
+2023-11-01,Insurance and administration,Fixed,Annual operating plan,30,124167.4548
+2023-11-01,Corporate overhead,Fixed,Annual operating plan,30,97196.0183
+2023-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,44713.2711
+2023-12-01,Cloud usage,Variable,Revenue and project workload,30,32444.8962
+2023-12-01,Software licenses,Semi-variable,Headcount,30,46052.7858
+2023-12-01,Travel,Variable,Revenue and delivery seasonality,20,24670.5987
+2023-12-01,Recruitment,Variable,New hires,20,4500.0000
+2023-12-01,Sales commissions,Variable,Recognized revenue,30,25303.1781
+2023-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,94886.9180
+2023-12-01,Office rent,Fixed,Lease plan,30,121191.5414
+2023-12-01,Professional services,Fixed,Annual operating plan,35,87579.4851
+2023-12-01,Insurance and administration,Fixed,Annual operating plan,30,120750.3440
+2023-12-01,Corporate overhead,Fixed,Annual operating plan,30,99098.7176
+2024-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,51419.6242
+2024-01-01,Cloud usage,Variable,Revenue and project workload,30,57106.7679
+2024-01-01,Software licenses,Semi-variable,Headcount,30,45857.1103
+2024-01-01,Travel,Variable,Revenue and delivery seasonality,20,43968.3228
+2024-01-01,Recruitment,Variable,New hires,20,2250.0000
+2024-01-01,Sales commissions,Variable,Recognized revenue,30,32569.1280
+2024-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,122134.2301
+2024-01-01,Office rent,Fixed,Lease plan,30,121636.8973
+2024-01-01,Professional services,Fixed,Annual operating plan,35,85101.6454
+2024-01-01,Insurance and administration,Fixed,Annual operating plan,30,125381.4754
+2024-01-01,Corporate overhead,Fixed,Annual operating plan,30,97866.6559
+2024-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,37994.0571
+2024-02-01,Cloud usage,Variable,Revenue and project workload,30,51564.4359
+2024-02-01,Software licenses,Semi-variable,Headcount,30,45537.2908
+2024-02-01,Travel,Variable,Revenue and delivery seasonality,20,42552.9324
+2024-02-01,Recruitment,Variable,New hires,20,2250.0000
+2024-02-01,Sales commissions,Variable,Recognized revenue,30,31520.6906
+2024-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,118202.5899
+2024-02-01,Office rent,Fixed,Lease plan,30,122083.8897
+2024-02-01,Professional services,Fixed,Annual operating plan,35,86488.8734
+2024-02-01,Insurance and administration,Fixed,Annual operating plan,30,122868.8785
+2024-02-01,Corporate overhead,Fixed,Annual operating plan,30,95925.4635
+2024-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,58185.1076
+2024-03-01,Cloud usage,Variable,Revenue and project workload,30,56685.7135
+2024-03-01,Software licenses,Semi-variable,Headcount,30,45704.6317
+2024-03-01,Travel,Variable,Revenue and delivery seasonality,20,43920.2225
+2024-03-01,Recruitment,Variable,New hires,20,4500.0000
+2024-03-01,Sales commissions,Variable,Recognized revenue,30,32533.4982
+2024-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,122000.6181
+2024-03-01,Office rent,Fixed,Lease plan,30,122532.5247
+2024-03-01,Professional services,Fixed,Annual operating plan,35,87821.1670
+2024-03-01,Insurance and administration,Fixed,Annual operating plan,30,127529.1353
+2024-03-01,Corporate overhead,Fixed,Annual operating plan,30,99489.2971
+2024-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,62105.1576
+2024-04-01,Cloud usage,Variable,Revenue and project workload,30,52575.4834
+2024-04-01,Software licenses,Semi-variable,Headcount,30,45749.6047
+2024-04-01,Travel,Variable,Revenue and delivery seasonality,20,42225.2806
+2024-04-01,Recruitment,Variable,New hires,20,9000.0000
+2024-04-01,Sales commissions,Variable,Recognized revenue,30,31277.9856
+2024-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,117292.4461
+2024-04-01,Office rent,Fixed,Lease plan,30,122982.8084
+2024-04-01,Professional services,Fixed,Annual operating plan,35,84089.0882
+2024-04-01,Insurance and administration,Fixed,Annual operating plan,30,125654.9978
+2024-04-01,Corporate overhead,Fixed,Annual operating plan,30,100117.9490
+2024-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,68134.9776
+2024-05-01,Cloud usage,Variable,Revenue and project workload,30,58594.6289
+2024-05-01,Software licenses,Semi-variable,Headcount,30,45917.7258
+2024-05-01,Travel,Variable,Revenue and delivery seasonality,20,64150.9462
+2024-05-01,Recruitment,Variable,New hires,20,9000.0000
+2024-05-01,Sales commissions,Variable,Recognized revenue,30,34213.8380
+2024-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,128301.8923
+2024-05-01,Office rent,Fixed,Lease plan,30,123434.7468
+2024-05-01,Professional services,Fixed,Annual operating plan,35,95282.1270
+2024-05-01,Insurance and administration,Fixed,Annual operating plan,30,127137.2427
+2024-05-01,Corporate overhead,Fixed,Annual operating plan,30,97591.7989
+2024-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,52397.4613
+2024-06-01,Cloud usage,Variable,Revenue and project workload,30,42746.6773
+2024-06-01,Software licenses,Semi-variable,Headcount,30,46210.3530
+2024-06-01,Travel,Variable,Revenue and delivery seasonality,20,54755.9202
+2024-06-01,Recruitment,Variable,New hires,20,11250.0000
+2024-06-01,Sales commissions,Variable,Recognized revenue,30,29203.1574
+2024-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,109511.8404
+2024-06-01,Office rent,Fixed,Lease plan,30,123888.3459
+2024-06-01,Professional services,Fixed,Annual operating plan,35,84681.1665
+2024-06-01,Insurance and administration,Fixed,Annual operating plan,30,123872.9078
+2024-06-01,Corporate overhead,Fixed,Annual operating plan,30,92373.0710
+2024-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,69454.4938
+2024-07-01,Cloud usage,Variable,Revenue and project workload,30,53056.8990
+2024-07-01,Software licenses,Semi-variable,Headcount,30,46504.5109
+2024-07-01,Travel,Variable,Revenue and delivery seasonality,20,34128.2322
+2024-07-01,Recruitment,Variable,New hires,20,11250.0000
+2024-07-01,Sales commissions,Variable,Recognized revenue,30,35003.3151
+2024-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,131262.4316
+2024-07-01,Office rent,Fixed,Lease plan,30,124343.6120
+2024-07-01,Professional services,Fixed,Annual operating plan,35,89973.8022
+2024-07-01,Insurance and administration,Fixed,Annual operating plan,30,127020.7047
+2024-07-01,Corporate overhead,Fixed,Annual operating plan,30,99316.1925
+2024-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,47501.3518
+2024-08-01,Cloud usage,Variable,Revenue and project workload,30,42237.8913
+2024-08-01,Software licenses,Semi-variable,Headcount,30,46675.4061
+2024-08-01,Travel,Variable,Revenue and delivery seasonality,20,28978.1443
+2024-08-01,Recruitment,Variable,New hires,20,6750.0000
+2024-08-01,Sales commissions,Variable,Recognized revenue,30,29721.1736
+2024-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,111454.4011
+2024-08-01,Office rent,Fixed,Lease plan,30,124800.5511
+2024-08-01,Professional services,Fixed,Annual operating plan,35,91333.2438
+2024-08-01,Insurance and administration,Fixed,Annual operating plan,30,128875.7963
+2024-08-01,Corporate overhead,Fixed,Annual operating plan,30,100297.4190
+2024-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,80813.5656
+2024-09-01,Cloud usage,Variable,Revenue and project workload,30,46599.2918
+2024-09-01,Software licenses,Semi-variable,Headcount,30,46596.4110
+2024-09-01,Travel,Variable,Revenue and delivery seasonality,20,64100.1126
+2024-09-01,Recruitment,Variable,New hires,20,4500.0000
+2024-09-01,Sales commissions,Variable,Recognized revenue,30,34186.7267
+2024-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,128200.2253
+2024-09-01,Office rent,Fixed,Lease plan,30,125259.1693
+2024-09-01,Professional services,Fixed,Annual operating plan,35,86899.4738
+2024-09-01,Insurance and administration,Fixed,Annual operating plan,30,129100.0425
+2024-09-01,Corporate overhead,Fixed,Annual operating plan,30,100626.6305
+2024-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,94976.8924
+2024-10-01,Cloud usage,Variable,Revenue and project workload,30,59871.0773
+2024-10-01,Software licenses,Semi-variable,Headcount,30,47144.8023
+2024-10-01,Travel,Variable,Revenue and delivery seasonality,20,70050.7761
+2024-10-01,Recruitment,Variable,New hires,20,13500.0000
+2024-10-01,Sales commissions,Variable,Recognized revenue,30,37360.4139
+2024-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,140101.5522
+2024-10-01,Office rent,Fixed,Lease plan,30,125719.4729
+2024-10-01,Professional services,Fixed,Annual operating plan,35,90872.1603
+2024-10-01,Insurance and administration,Fixed,Annual operating plan,30,128680.4393
+2024-10-01,Corporate overhead,Fixed,Annual operating plan,30,102710.1394
+2024-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,57076.6892
+2024-11-01,Cloud usage,Variable,Revenue and project workload,30,48120.7829
+2024-11-01,Software licenses,Semi-variable,Headcount,30,47570.4134
+2024-11-01,Travel,Variable,Revenue and delivery seasonality,20,43338.2202
+2024-11-01,Recruitment,Variable,New hires,20,11250.0000
+2024-11-01,Sales commissions,Variable,Recognized revenue,30,32102.3853
+2024-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,120383.9449
+2024-11-01,Office rent,Fixed,Lease plan,30,126181.4680
+2024-11-01,Professional services,Fixed,Annual operating plan,35,85257.3729
+2024-11-01,Insurance and administration,Fixed,Annual operating plan,30,130190.9927
+2024-11-01,Corporate overhead,Fixed,Annual operating plan,30,103170.5916
+2024-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,61593.6817
+2024-12-01,Cloud usage,Variable,Revenue and project workload,30,46922.7925
+2024-12-01,Software licenses,Semi-variable,Headcount,30,48125.1611
+2024-12-01,Travel,Variable,Revenue and delivery seasonality,20,27977.5339
+2024-12-01,Recruitment,Variable,New hires,20,11250.0000
+2024-12-01,Sales commissions,Variable,Recognized revenue,30,28694.9065
+2024-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,107605.8995
+2024-12-01,Office rent,Fixed,Lease plan,30,126645.1608
+2024-12-01,Professional services,Fixed,Annual operating plan,35,89808.3015
+2024-12-01,Insurance and administration,Fixed,Annual operating plan,30,128082.3271
+2024-12-01,Corporate overhead,Fixed,Annual operating plan,30,102349.8031
+2025-01-01,Contractors,Variable,Contractor capacity and delivery demand,30,76211.5535
+2025-01-01,Cloud usage,Variable,Revenue and project workload,30,58095.6749
+2025-01-01,Software licenses,Semi-variable,Headcount,30,48302.0119
+2025-01-01,Travel,Variable,Revenue and delivery seasonality,20,48375.3378
+2025-01-01,Recruitment,Variable,New hires,20,11250.0000
+2025-01-01,Sales commissions,Variable,Recognized revenue,30,35833.5836
+2025-01-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,134375.9384
+2025-01-01,Office rent,Fixed,Lease plan,30,127110.5576
+2025-01-01,Professional services,Fixed,Annual operating plan,35,91104.6598
+2025-01-01,Insurance and administration,Fixed,Annual operating plan,30,138050.2441
+2025-01-01,Corporate overhead,Fixed,Annual operating plan,30,99834.5663
+2025-02-01,Contractors,Variable,Contractor capacity and delivery demand,30,78598.6317
+2025-02-01,Cloud usage,Variable,Revenue and project workload,30,65451.4477
+2025-02-01,Software licenses,Semi-variable,Headcount,30,48862.2456
+2025-02-01,Travel,Variable,Revenue and delivery seasonality,20,46360.2187
+2025-02-01,Recruitment,Variable,New hires,20,9000.0000
+2025-02-01,Sales commissions,Variable,Recognized revenue,30,34340.9028
+2025-02-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,128778.3854
+2025-02-01,Office rent,Fixed,Lease plan,30,127577.6647
+2025-02-01,Professional services,Fixed,Annual operating plan,35,86093.4242
+2025-02-01,Insurance and administration,Fixed,Annual operating plan,30,131333.3744
+2025-02-01,Corporate overhead,Fixed,Annual operating plan,30,99498.7872
+2025-03-01,Contractors,Variable,Contractor capacity and delivery demand,30,97060.1175
+2025-03-01,Cloud usage,Variable,Revenue and project workload,30,59221.2881
+2025-03-01,Software licenses,Semi-variable,Headcount,30,49297.8980
+2025-03-01,Travel,Variable,Revenue and delivery seasonality,20,49535.8325
+2025-03-01,Recruitment,Variable,New hires,20,13500.0000
+2025-03-01,Sales commissions,Variable,Recognized revenue,30,36693.2093
+2025-03-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,137599.5348
+2025-03-01,Office rent,Fixed,Lease plan,30,128046.4883
+2025-03-01,Professional services,Fixed,Annual operating plan,35,93492.7035
+2025-03-01,Insurance and administration,Fixed,Annual operating plan,30,130663.5514
+2025-03-01,Corporate overhead,Fixed,Annual operating plan,30,105443.5400
+2025-04-01,Contractors,Variable,Contractor capacity and delivery demand,30,80076.2211
+2025-04-01,Cloud usage,Variable,Revenue and project workload,30,54446.9885
+2025-04-01,Software licenses,Semi-variable,Headcount,30,49993.1265
+2025-04-01,Travel,Variable,Revenue and delivery seasonality,20,47699.6098
+2025-04-01,Recruitment,Variable,New hires,20,15750.0000
+2025-04-01,Sales commissions,Variable,Recognized revenue,30,35333.0443
+2025-04-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,132498.9160
+2025-04-01,Office rent,Fixed,Lease plan,30,128517.0348
+2025-04-01,Professional services,Fixed,Annual operating plan,35,84209.3284
+2025-04-01,Insurance and administration,Fixed,Annual operating plan,30,133090.0284
+2025-04-01,Corporate overhead,Fixed,Annual operating plan,30,103396.7531
+2025-05-01,Contractors,Variable,Contractor capacity and delivery demand,30,82810.8114
+2025-05-01,Cloud usage,Variable,Revenue and project workload,30,55833.3062
+2025-05-01,Software licenses,Semi-variable,Headcount,30,50176.8417
+2025-05-01,Travel,Variable,Revenue and delivery seasonality,20,68183.7714
+2025-05-01,Recruitment,Variable,New hires,20,18000.0000
+2025-05-01,Sales commissions,Variable,Recognized revenue,30,36364.6781
+2025-05-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,136367.5428
+2025-05-01,Office rent,Fixed,Lease plan,30,128989.3104
+2025-05-01,Professional services,Fixed,Annual operating plan,35,89742.9026
+2025-05-01,Insurance and administration,Fixed,Annual operating plan,30,132855.3382
+2025-05-01,Corporate overhead,Fixed,Annual operating plan,30,101585.6674
+2025-06-01,Contractors,Variable,Contractor capacity and delivery demand,30,94474.0413
+2025-06-01,Cloud usage,Variable,Revenue and project workload,30,58864.1146
+2025-06-01,Software licenses,Semi-variable,Headcount,30,51008.5487
+2025-06-01,Travel,Variable,Revenue and delivery seasonality,20,68093.7056
+2025-06-01,Recruitment,Variable,New hires,20,13500.0000
+2025-06-01,Sales commissions,Variable,Recognized revenue,30,36316.6430
+2025-06-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,136187.4113
+2025-06-01,Office rent,Fixed,Lease plan,30,129463.3215
+2025-06-01,Professional services,Fixed,Annual operating plan,35,95187.7361
+2025-06-01,Insurance and administration,Fixed,Annual operating plan,30,138800.1431
+2025-06-01,Corporate overhead,Fixed,Annual operating plan,30,107732.8768
+2025-07-01,Contractors,Variable,Contractor capacity and delivery demand,30,118202.2695
+2025-07-01,Cloud usage,Variable,Revenue and project workload,30,64448.6952
+2025-07-01,Software licenses,Semi-variable,Headcount,30,51585.8126
+2025-07-01,Travel,Variable,Revenue and delivery seasonality,20,39285.5069
+2025-07-01,Recruitment,Variable,New hires,20,15750.0000
+2025-07-01,Sales commissions,Variable,Recognized revenue,30,40292.8276
+2025-07-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,151098.1036
+2025-07-01,Office rent,Fixed,Lease plan,30,129939.0745
+2025-07-01,Professional services,Fixed,Annual operating plan,35,92548.8715
+2025-07-01,Insurance and administration,Fixed,Annual operating plan,30,131161.2074
+2025-07-01,Corporate overhead,Fixed,Annual operating plan,30,103244.7871
+2025-08-01,Contractors,Variable,Contractor capacity and delivery demand,30,78668.2235
+2025-08-01,Cloud usage,Variable,Revenue and project workload,30,54774.0315
+2025-08-01,Software licenses,Semi-variable,Headcount,30,52036.2138
+2025-08-01,Travel,Variable,Revenue and delivery seasonality,20,31968.5803
+2025-08-01,Recruitment,Variable,New hires,20,13500.0000
+2025-08-01,Sales commissions,Variable,Recognized revenue,30,32788.2875
+2025-08-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,122956.0781
+2025-08-01,Office rent,Fixed,Lease plan,30,130416.5759
+2025-08-01,Professional services,Fixed,Annual operating plan,35,91067.9446
+2025-08-01,Insurance and administration,Fixed,Annual operating plan,30,134190.8048
+2025-08-01,Corporate overhead,Fixed,Annual operating plan,30,102321.8478
+2025-09-01,Contractors,Variable,Contractor capacity and delivery demand,30,96506.2948
+2025-09-01,Cloud usage,Variable,Revenue and project workload,30,70048.9223
+2025-09-01,Software licenses,Semi-variable,Headcount,30,52489.2286
+2025-09-01,Travel,Variable,Revenue and delivery seasonality,20,76345.2872
+2025-09-01,Recruitment,Variable,New hires,20,6750.0000
+2025-09-01,Sales commissions,Variable,Recognized revenue,30,40717.4865
+2025-09-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,152690.5744
+2025-09-01,Office rent,Fixed,Lease plan,30,130895.8319
+2025-09-01,Professional services,Fixed,Annual operating plan,35,91354.2662
+2025-09-01,Insurance and administration,Fixed,Annual operating plan,30,137092.5251
+2025-09-01,Corporate overhead,Fixed,Annual operating plan,30,103378.4000
+2025-10-01,Contractors,Variable,Contractor capacity and delivery demand,30,107569.6807
+2025-10-01,Cloud usage,Variable,Revenue and project workload,30,63838.4722
+2025-10-01,Software licenses,Semi-variable,Headcount,30,52944.8702
+2025-10-01,Travel,Variable,Revenue and delivery seasonality,20,79392.5381
+2025-10-01,Recruitment,Variable,New hires,20,13500.0000
+2025-10-01,Sales commissions,Variable,Recognized revenue,30,42342.6870
+2025-10-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,158785.0763
+2025-10-01,Office rent,Fixed,Lease plan,30,131376.8491
+2025-10-01,Professional services,Fixed,Annual operating plan,35,97047.0997
+2025-10-01,Insurance and administration,Fixed,Annual operating plan,30,131856.4783
+2025-10-01,Corporate overhead,Fixed,Annual operating plan,30,101476.7721
+2025-11-01,Contractors,Variable,Contractor capacity and delivery demand,30,95666.4295
+2025-11-01,Cloud usage,Variable,Revenue and project workload,30,52537.5678
+2025-11-01,Software licenses,Semi-variable,Headcount,30,53798.7307
+2025-11-01,Travel,Variable,Revenue and delivery seasonality,20,47944.1853
+2025-11-01,Recruitment,Variable,New hires,20,18000.0000
+2025-11-01,Sales commissions,Variable,Recognized revenue,30,35514.2113
+2025-11-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,133178.2924
+2025-11-01,Office rent,Fixed,Lease plan,30,131859.6340
+2025-11-01,Professional services,Fixed,Annual operating plan,35,95868.2960
+2025-11-01,Insurance and administration,Fixed,Annual operating plan,30,137001.6600
+2025-11-01,Corporate overhead,Fixed,Annual operating plan,30,103984.0844
+2025-12-01,Contractors,Variable,Contractor capacity and delivery demand,30,82841.2822
+2025-12-01,Cloud usage,Variable,Revenue and project workload,30,53891.4534
+2025-12-01,Software licenses,Semi-variable,Headcount,30,54393.4633
+2025-12-01,Travel,Variable,Revenue and delivery seasonality,20,34564.8593
+2025-12-01,Recruitment,Variable,New hires,20,18000.0000
+2025-12-01,Sales commissions,Variable,Recognized revenue,30,35451.1377
+2025-12-01,Training and delivery support,Semi-variable,Revenue and active headcount,25,132941.7664
+2025-12-01,Office rent,Fixed,Lease plan,30,132344.1930
+2025-12-01,Professional services,Fixed,Annual operating plan,35,95619.9768
+2025-12-01,Insurance and administration,Fixed,Annual operating plan,30,139378.4081
+2025-12-01,Corporate overhead,Fixed,Annual operating plan,30,106211.3542
