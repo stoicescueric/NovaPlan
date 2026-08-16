@@ -43,7 +43,6 @@ def layout() -> html.Div:
                 [
                     html.Div(
                         [
-                            html.Div("Short-term cash experiment", className="page-kicker"),
                             html.H1("Will we have enough cash for the next 13 weeks?"),
                             html.P("Test three simple events and look for the lowest weekly balance."),
                         ]
@@ -64,17 +63,17 @@ def layout() -> html.Div:
                                 7,
                                 0,
                                 {0: "none", 14: "2 weeks", 28: "4 weeks"},
-                                "Later customer payments move cash receipts into later weeks.",
+                                "Imagine a €100 invoice is due in week 2. A 14-day delay moves that €100 to week 4; if it moves past week 13, it leaves this short view. Only collection timing and cash change—the invoice, revenue and costs do not.",
                             ),
                             _slider(
                                 "cash-hires",
-                                "Extra employees joining now",
+                                "Extra employees added over 6 weeks",
                                 0,
                                 40,
                                 5,
                                 0,
                                 {0: "0", 20: "20", 40: "40"},
-                                "New employees add payroll, recruiting and equipment costs.",
+                                "The new people are spread over the first 6 weeks. From each person’s joining week, the company pays payroll plus €3,000 for recruiting and €1,800 for equipment. This 13-week cash check does not give the new people any extra revenue.",
                             ),
                             _slider(
                                 "cash-extra-cost",
@@ -84,7 +83,7 @@ def layout() -> html.Div:
                                 250_000,
                                 0,
                                 {0: "€0", 1_000_000: "€1m", 2_000_000: "€2m"},
-                                "This represents a one-time bill, tax payment or equipment purchase.",
+                                "Think of one surprise bill paid in week 1, such as a tax bill or equipment purchase. Choosing €1m removes €1m from week 1 and every cash balance after it. It happens once and does not change revenue, payroll or later recurring costs.",
                             ),
                         ],
                         className="controls-panel",
@@ -103,12 +102,14 @@ def layout() -> html.Div:
                                 className="panel",
                             ),
                             html.Div(id="cash-check-conclusion"),
-                        ]
+                        ],
+                        className="results-stack",
                     ),
                 ],
                 className="content-grid sidebar-layout",
             ),
-        ]
+        ],
+        className="primary-page",
     )
 
 
@@ -165,23 +166,45 @@ def update_cash_check(delay: float | None, hires: float | None, extra_cost: floa
         y=3_000_000,
         line_dash="dash",
         line_color=COLORS["amber"],
-        annotation_text="€3m minimum safe cash",
+        annotation_text="Example €3m cash floor",
         annotation_position="bottom right",
     )
     figure.update_yaxes(tickprefix="€", tickformat=".3s")
     style_figure(figure, height=400)
 
     kpis = [
-        metric_card("Opening cash", euro(opening_cash), "week 1"),
-        metric_card("Lowest cash", euro(minimum_cash), f"week {int(minimum_row['week_number'])}", tone="positive" if minimum_cash >= 3_000_000 else "negative"),
-        metric_card("Cash cushion", euro(headroom), "above the €3m level", tone="positive" if headroom >= 0 else "negative"),
-        metric_card("Cash after 13 weeks", euro(ending_cash), "end of the short-term plan"),
+        metric_card(
+            "Opening cash",
+            euro(opening_cash),
+            "week 1",
+            explanation="The invented company’s December 2025 closing cash, used as the starting bank balance for this short forecast.",
+        ),
+        metric_card(
+            "Lowest cash",
+            euro(minimum_cash),
+            f"week {int(minimum_row['week_number'])}",
+            tone="positive" if minimum_cash >= 3_000_000 else "negative",
+            explanation="The smallest weekly closing balance across all 13 weeks. The week underneath tells you when cash is tightest.",
+        ),
+        metric_card(
+            "Cash above floor",
+            euro(headroom),
+            "versus the €3m example",
+            tone="positive" if headroom >= 0 else "negative",
+            explanation="Lowest cash minus the chosen €3m classroom floor. A negative number means at least one week ends below that line.",
+        ),
+        metric_card(
+            "Cash after 13 weeks",
+            euro(ending_cash),
+            "end of the short-term plan",
+            explanation="The closing bank balance in week 13. It may be higher than the lowest cash figure because cash can recover after a difficult week.",
+        ),
     ]
     if headroom >= 0:
-        message = f"The plan stays above €3m. Its smallest cash cushion is {euro(headroom)} in week {int(minimum_row['week_number'])}."
+        message = f"The plan stays above the example €3m cash floor. The smallest gap is {euro(headroom)} in week {int(minimum_row['week_number'])}."
         tone = "info"
     else:
-        message = f"The plan falls {euro(abs(headroom))} below the €3m safety level in week {int(minimum_row['week_number'])}."
+        message = f"The plan falls {euro(abs(headroom))} below the example €3m cash floor in week {int(minimum_row['week_number'])}."
         tone = "warning"
 
     raw = {
@@ -194,4 +217,4 @@ def update_cash_check(delay: float | None, hires: float | None, extra_cost: floa
         "ending_cash_eur": ending_cash,
         "cash_headroom_eur": headroom,
     }
-    return figure, kpis, callout("Cash check", message, tone), raw
+    return figure, kpis, callout("Result", message, tone), raw

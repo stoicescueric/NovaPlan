@@ -42,7 +42,6 @@ def layout() -> html.Div:
                 [
                     html.Div(
                         [
-                            html.Div("Practical experiment", className="page-kicker"),
                             html.H1("What happens if we hire more people?"),
                             html.P("Move four assumptions and compare the result with the unchanged base plan."),
                         ]
@@ -50,17 +49,16 @@ def layout() -> html.Div:
                 ],
                 className="page-heading",
             ),
-            callout(
-                "Try this",
-                "Start with 40 hires. Then add a customer-payment delay or lower utilization and watch the lowest cash point.",
-                "info",
+            html.P(
+                [html.Strong("Try this: "), "Start with 40 hires. Then delay customer payments or lower utilization and watch the lowest cash point."],
+                className="experiment-note",
             ),
             html.Div(
                 [
                     html.Div(
                         [
                             html.H3("Change the assumptions", className="controls-title"),
-                            html.P("These are the four main business levers in the project.", className="controls-description"),
+                            html.P("These four inputs feed the same financial forecast.", className="controls-description"),
                             _slider(
                                 "simple-hires",
                                 "Extra employees",
@@ -69,7 +67,7 @@ def layout() -> html.Div:
                                 5,
                                 40,
                                 {0: "0", 20: "20", 40: "40", 60: "60"},
-                                "More employees increase salary cost first and productive capacity later.",
+                                "Think of adding people to a team. They join little by little over the first 6 months. As each person joins, the company starts paying salary, €3,000 for recruiting and €1,800 for equipment; it then takes 3 months for that person to reach a full share of client work. This does not change the hourly price, utilization or how quickly customers pay.",
                             ),
                             _slider(
                                 "simple-utilization",
@@ -79,7 +77,7 @@ def layout() -> html.Div:
                                 1,
                                 0,
                                 {-5: "−5 pp", 0: "0", 5: "+5 pp"},
-                                "Utilization is the share of available consulting time sold to customers.",
+                                "Imagine 100 work hours are available. +5 percentage points means 5 more of those hours can be sold to customers each month, so revenue, operating profit and cash normally rise. This does not add employees, raise the hourly price or make customers pay sooner.",
                             ),
                             _slider(
                                 "simple-rate",
@@ -89,17 +87,17 @@ def layout() -> html.Div:
                                 1,
                                 0,
                                 {-5: "−5%", 0: "0", 5: "+5%"},
-                                "A higher hourly price raises revenue if the work is still sold.",
+                                "This changes the price tag on one client hour for all 18 forecast months. If an hour were €100, +5% would make it €105. It changes revenue, invoices, operating profit and cash, but not employee count, utilization or payment speed.",
                             ),
                             _slider(
                                 "simple-dso",
-                                "Customer payment delay",
+                                "Change in average payment time",
                                 -15,
                                 20,
                                 5,
                                 0,
                                 {-15: "15d faster", 0: "same", 20: "20d slower"},
-                                "Slower payment reduces cash but does not change revenue already earned.",
+                                "The work and operating profit are counted first; the customer’s cash arrives later. +20 days means the company waits 20 extra days, so more invoice money stays unpaid and cash falls. It does not change revenue, operating profit, employee count or price.",
                             ),
                         ],
                         className="controls-panel",
@@ -110,7 +108,7 @@ def layout() -> html.Div:
                             html.Div(
                                 [
                                     html.Div(
-                                        [html.H3("Cash: base plan versus your experiment"), html.P("The dashed line is the €3m minimum safe cash level.")],
+                                        [html.H3("Cash: base plan versus your experiment"), html.P("The dashed line is the chosen €3m cash floor.")],
                                         className="panel-header",
                                     ),
                                     dcc.Graph(id="what-if-chart", config={"displayModeBar": False}),
@@ -118,12 +116,14 @@ def layout() -> html.Div:
                                 className="panel",
                             ),
                             html.Div(id="what-if-conclusion"),
-                        ]
+                        ],
+                        className="results-stack",
                     ),
                 ],
                 className="content-grid sidebar-layout",
             ),
-        ]
+        ],
+        className="primary-page",
     )
 
 
@@ -183,7 +183,7 @@ def update_what_if(hires: float | None, utilization: float | None, rate: float |
         y=3_000_000,
         line_dash="dash",
         line_color=COLORS["amber"],
-        annotation_text="€3m minimum safe cash",
+        annotation_text="Chosen €3m cash floor",
         annotation_position="bottom right",
     )
     figure.update_yaxes(tickprefix="€", tickformat=".3s")
@@ -196,20 +196,43 @@ def update_what_if(hires: float | None, utilization: float | None, rate: float |
     people = float(result["headcount"])
 
     kpis = [
-        metric_card("Revenue change", euro(revenue_change), "versus base", tone="positive" if revenue_change >= 0 else "negative"),
-        metric_card("Profit change", euro(profit_change), "EBITDA versus base", tone="positive" if profit_change >= 0 else "negative"),
-        metric_card("Lowest cash", euro(minimum_cash), f"{euro(minimum_change)} vs base", tone="positive" if minimum_cash >= 3_000_000 else "negative"),
-        metric_card("Employees at the end", number(people), f"{hires} extra hires selected"),
+        metric_card(
+            "Revenue change",
+            euro(revenue_change),
+            "versus base",
+            tone="positive" if revenue_change >= 0 else "negative",
+            explanation="All revenue earned during the 18-month experiment minus all revenue in the unchanged base plan. It is not the same as customer cash collected.",
+        ),
+        metric_card(
+            "Operating profit change",
+            euro(profit_change),
+            "EBITDA versus base",
+            tone="positive" if profit_change >= 0 else "negative",
+            explanation="The 18-month change in revenue left after payroll, contractors and normal operating costs. It is before depreciation, interest and tax, so it is not cash or net income.",
+        ),
+        metric_card(
+            "Lowest cash",
+            euro(minimum_cash),
+            f"{euro(minimum_change)} vs base",
+            tone="positive" if minimum_cash >= 3_000_000 else "negative",
+            explanation="The smallest monthly closing cash balance anywhere in your 18-month experiment. The note compares that tightest point with the base plan’s tightest point.",
+        ),
+        metric_card(
+            "Employees at the end",
+            number(people),
+            f"{hires} extra hires selected",
+            explanation="The estimated team size in June 2027 after normal hiring, your extra hires and expected staff departures. It is not simply today’s employees plus the slider value.",
+        ),
     ]
 
     if minimum_cash < 3_000_000:
-        message = f"This experiment falls below the €3m safety level. The lowest cash balance is {euro(minimum_cash)}."
+        message = f"This experiment falls below the chosen €3m cash floor. The lowest cash balance is {euro(minimum_cash)}."
         tone = "warning"
     elif profit_change > 0 and minimum_change < 0:
         message = f"The plan adds {euro(profit_change)} of profit, but the lowest cash point is {euro(abs(minimum_change))} lower while the new employees ramp up."
         tone = "info"
     elif profit_change > 0:
-        message = f"The experiment improves profit by {euro(profit_change)} and stays above the cash safety level."
+        message = f"The experiment improves profit by {euro(profit_change)} and stays above the chosen cash floor."
         tone = "info"
     else:
         message = "The experiment does not improve profit. Try changing utilization, price or payment speed to see which lever matters."
@@ -226,4 +249,4 @@ def update_what_if(hires: float | None, utilization: float | None, rate: float |
         "minimum_cash_change_eur": minimum_change,
         "ending_headcount": people,
     }
-    return figure, kpis, callout("What the experiment says", message, tone), raw
+    return figure, kpis, callout("Result", message, tone), raw

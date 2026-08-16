@@ -5,18 +5,16 @@ Run with ``python app.py`` and open http://127.0.0.1:8050.
 
 from __future__ import annotations
 
-from datetime import datetime
-
 import dash
 from dash import ALL, Dash, Input, Output, dcc, html
 
 
 NAV_ITEMS = [
-    ("/", "Project Overview", "1"),
-    ("/what-if", "What-if Experiment", "2"),
-    ("/cash-check", "13-Week Cash Check", "3"),
-    ("/monte-carlo", "Risk Simulation", "4"),
-    ("/how-it-works", "How It Works", "?"),
+    ("/", "Project Overview", "01"),
+    ("/what-if", "What-if Experiment", "02"),
+    ("/cash-check", "13-Week Cash Check", "03"),
+    ("/monte-carlo", "Risk Simulation", "04"),
+    ("/how-it-works", "How It Works", "05"),
 ]
 
 
@@ -58,29 +56,20 @@ def app_layout() -> html.Div:
                 [
                     html.Div(
                         [
-                            html.Div("N", className="brand-mark"),
                             html.Div(
                                 [
                                     html.Div("NovaPlan", className="brand-name"),
-                                    html.Div("Business planning project", className="brand-tagline"),
+                                    html.Div("Student project · fictional data", className="brand-tagline"),
                                 ]
                             ),
                         ],
                         className="brand",
                     ),
-                    html.Div("Explore the project", className="nav-section-label"),
                     navigation(),
                     html.Div(
                         [
-                            html.Div(
-                                [html.Span(className="status-dot"), html.Span("Using fictional data")],
-                                className="model-status",
-                            ),
-                            html.P("Synthetic demonstration data", className="sidebar-note"),
-                            html.P(
-                                f"Last refreshed · {datetime.now():%d %b %Y}",
-                                className="sidebar-timestamp",
-                            ),
+                            html.P("Data through December 2025", className="sidebar-note"),
+                            html.P("Built for learning, not advice", className="sidebar-timestamp"),
                         ],
                         className="sidebar-footer",
                     ),
@@ -94,13 +83,13 @@ def app_layout() -> html.Div:
                             html.Div(
                                 [
                                     html.Span("NovaBridge Digital SRL", className="company-name"),
-                                    html.Span("Student internship project", className="cycle-badge"),
+                                    html.Span("Fictional case study", className="topbar-note"),
                                 ],
                                 className="topbar-context",
                             ),
                             html.Div(
                                 [
-                                    html.Span("EUR", className="currency-badge"),
+                                    html.Span("Figures in EUR", className="topbar-note"),
                                 ],
                                 className="topbar-actions",
                             ),

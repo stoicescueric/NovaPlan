@@ -6,17 +6,17 @@ import plotly.graph_objects as go
 
 
 COLORS = {
-    "ink": "#17252B",
-    "muted": "#6B7780",
-    "grid": "#E8ECEA",
-    "accent": "#16706F",
-    "accent_soft": "#85B8B2",
-    "blue": "#56759A",
-    "green": "#2F7D5B",
-    "red": "#C45A55",
-    "amber": "#C7893B",
-    "purple": "#75658D",
-    "surface": "#FFFFFF",
+    "ink": "#202625",
+    "muted": "#626D6A",
+    "grid": "#E6E4DE",
+    "accent": "#1F6255",
+    "accent_soft": "#8AAFA6",
+    "blue": "#496D8B",
+    "green": "#2C6E52",
+    "red": "#A64C45",
+    "amber": "#A66A2C",
+    "purple": "#6E6280",
+    "surface": "#FFFEFA",
 }
 
 SERIES = [
@@ -43,10 +43,10 @@ def style_figure(
         margin=dict(l=12, r=12, t=22, b=10),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Inter, Segoe UI, Arial, sans-serif", color=COLORS["ink"], size=12),
+        font=dict(family="Segoe UI, Arial, sans-serif", color=COLORS["ink"], size=12),
         colorway=SERIES,
         hovermode=hovermode,
-        hoverlabel=dict(bgcolor="#17252B", font_color="#FFFFFF", bordercolor="#17252B"),
+        hoverlabel=dict(bgcolor=COLORS["ink"], font_color="#FFFFFF", bordercolor=COLORS["ink"]),
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -91,4 +91,3 @@ def empty_figure(message: str = "No data available") -> go.Figure:
     figure.update_xaxes(visible=False)
     figure.update_yaxes(visible=False)
     return style_figure(figure, height=280, hovermode=False)
-

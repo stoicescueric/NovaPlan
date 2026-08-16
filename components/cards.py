@@ -24,14 +24,14 @@ def metric_card(
     return html.Div(
         [
             html.Div(
-                [html.Span(label)],
+                html.Span(label),
                 className="metric-label",
             ),
             html.Div(value, className="metric-value"),
             html.Div(footer, className="metric-footer") if footer else None,
             html.Details(
                 [
-                    html.Summary("What this means"),
+                    html.Summary("About this number"),
                     html.P(explanation),
                     html.Div(
                         [html.Span("Formula", className="explanation-formula-label"), html.Code(formula)],
@@ -91,7 +91,7 @@ def status_pill(text: str, tone: str = "neutral") -> html.Span:
 def callout(title: str, body: str, tone: str = "info") -> html.Div:
     """Create a highlighted analytical conclusion."""
     return html.Div(
-        [html.Div(className="callout-mark"), html.Div([html.H4(title), html.P(body)])],
+        [html.H4(title), html.P(body)],
         className=f"callout {tone}",
     )
 
