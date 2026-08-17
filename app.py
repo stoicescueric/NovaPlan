@@ -18,11 +18,12 @@ NAV_ITEMS = [
 ]
 
 
+
 app = Dash(
     __name__,
     use_pages=True,
     suppress_callback_exceptions=True,
-    title="NovaPlan | Business Planning & Liquidity",
+    title="NovaPlan | Dashboard ",
     update_title=None,
 )
 server = app.server
@@ -59,20 +60,13 @@ def app_layout() -> html.Div:
                             html.Div(
                                 [
                                     html.Div("NovaPlan", className="brand-name"),
-                                    html.Div("Student project · fictional data", className="brand-tagline"),
+                                    html.Div("Student project(Eric & Stefan)", className="brand-tagline"),
                                 ]
                             ),
                         ],
                         className="brand",
                     ),
                     navigation(),
-                    html.Div(
-                        [
-                            html.P("Data through December 2025", className="sidebar-note"),
-                            html.P("Built for learning, not advice", className="sidebar-timestamp"),
-                        ],
-                        className="sidebar-footer",
-                    ),
                 ],
                 className="sidebar",
             ),
@@ -82,8 +76,7 @@ def app_layout() -> html.Div:
                         [
                             html.Div(
                                 [
-                                    html.Span("NovaBridge Digital SRL", className="company-name"),
-                                    html.Span("Fictional case study", className="topbar-note"),
+                                    html.Span("NovaBridge Digital SRL (Firma imaginara)", className="company-name"),
                                 ],
                                 className="topbar-context",
                             ),

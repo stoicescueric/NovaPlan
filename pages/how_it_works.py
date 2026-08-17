@@ -437,7 +437,7 @@ def layout() -> html.Div:
                                     html.Li("Tax, public holidays, depreciation, working capital and the 13-week timing rules are deliberately simplified."),
                                     html.Li("A few fictional invoices contain future payment dates. A real forecast would only know expected dates, not the future."),
                                     html.Li("A model can repeat perfectly and still be wrong if its assumptions are unrealistic."),
-                                ],
+                                                                                            ],
                                 className="method-list",
                             ),
                         ],

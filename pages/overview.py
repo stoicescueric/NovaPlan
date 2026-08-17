@@ -83,7 +83,7 @@ def layout() -> html.Div:
                         [
                             html.H1("Can a consulting company hire more people without running short of cash?"),
                             html.P(
-                                "I built this project with a fictional company to study one chain of cause and effect: people create capacity, capacity creates revenue, costs shape profit, and payment timing turns that profit into cash."
+                                "We built this project with a fictional company to study one chain of cause and effect: people create capacity, capacity creates revenue, costs shape profit, and payment timing turns that profit into cash."
                             ),
                         ]
                     ),
@@ -141,15 +141,6 @@ def layout() -> html.Div:
                     ),
                     html.Div(
                         [
-                            html.H3("What I researched"),
-                            html.Ul(
-                                [
-                                    html.Li("How headcount, utilization and billing rate create revenue."),
-                                    html.Li("Why profit can rise before customer cash is collected."),
-                                    html.Li("How a 13-week cash forecast helps with short-term planning."),
-                                    html.Li("How scenarios and Monte Carlo test an uncertain future."),
-                                ]
-                            ),
                             html.H3("Practical result", style={"marginTop": "22px"}),
                             html.P(
                                 f"The 40-person hiring example adds about {euro(expansion_profit_change)} of forecast EBITDA, while the lowest cash point is {euro(abs(expansion_minimum_change))} lower during ramp-up."
@@ -160,10 +151,6 @@ def layout() -> html.Div:
                     ),
                 ],
                 className="content-grid equal",
-            ),
-            html.P(
-                "All figures are synthetic. The project explains planning mechanics; it is not financial advice or an official Deloitte product.",
-                className="page-disclaimer",
             ),
         ],
         className="primary-page",
