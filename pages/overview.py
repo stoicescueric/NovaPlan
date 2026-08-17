@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from dash import dcc, html
 
-from components.cards import callout, metric_card
+from components.cards import metric_card
 from components.charts import COLORS, style_figure
 from components.data_access import load_dataset
 from components.formatting import euro, percent
@@ -81,21 +81,15 @@ def layout() -> html.Div:
                 [
                     html.Div(
                         [
-                            html.Div("High-school internship project", className="page-kicker"),
                             html.H1("Can a consulting company hire more people without running short of cash?"),
                             html.P(
-                                "This practical project uses a fictional company to connect hiring, productive time, customer payments, profit and cash."
+                                "I built this project with a fictional company to study one chain of cause and effect: people create capacity, capacity creates revenue, costs shape profit, and payment timing turns that profit into cash."
                             ),
                         ]
                     ),
                     dcc.Link("Try the what-if experiment", href="/what-if", className="button"),
                 ],
                 className="page-heading",
-            ),
-            callout(
-                "The project in one sentence",
-                "Employees create capacity, capacity creates revenue, costs create profit, and payment timing turns profit into cash.",
-                "info",
             ),
             html.Div(
                 [
@@ -132,7 +126,7 @@ def layout() -> html.Div:
                         [
                             html.Div(
                                 [
-                                    html.H3("What happened in the fictional company?"),
+                                    html.H3("What happened from 2020 to 2025?"),
                                     html.P("Revenue grew, but cash followed a different path because invoices are paid later."),
                                 ],
                                 className="panel-header",
@@ -167,30 +161,10 @@ def layout() -> html.Div:
                 ],
                 className="content-grid equal",
             ),
-            html.Div(
-                [
-                    html.Div(
-                        [html.Div("People", className="driver-node-label"), html.Div("Employees", className="driver-node-value")],
-                        className="driver-node",
-                    ),
-                    html.Div(
-                        [html.Div("Productivity", className="driver-node-label"), html.Div("Utilization", className="driver-node-value")],
-                        className="driver-node",
-                    ),
-                    html.Div(
-                        [html.Div("Business", className="driver-node-label"), html.Div("Revenue and profit", className="driver-node-value")],
-                        className="driver-node",
-                    ),
-                    html.Div(
-                        [html.Div("Timing", className="driver-node-label"), html.Div("Cash", className="driver-node-value")],
-                        className="driver-node",
-                    ),
-                ],
-                className="driver-tree",
-            ),
             html.P(
                 "All figures are synthetic. The project explains planning mechanics; it is not financial advice or an official Deloitte product.",
                 className="page-disclaimer",
             ),
-        ]
+        ],
+        className="primary-page",
     )

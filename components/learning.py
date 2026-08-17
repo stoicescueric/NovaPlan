@@ -12,38 +12,34 @@ def learning_guide(
     steps: Sequence[tuple[str, str]],
     *,
     concepts: Sequence[str] | None = None,
-    open_by_default: bool = True,
+    open_by_default: bool = False,
 ) -> html.Details:
     """Explain how a beginner should read and use one decision page."""
     return html.Details(
         [
             html.Summary(
-                [
-                    html.Span("?", className="learning-guide-icon"),
-                    html.Span("Start here — how to read this page"),
-                    html.Span("Beginner guide", className="learning-guide-badge"),
-                ]
+                "Need help reading this page?"
             ),
             html.Div(
                 [
                     html.P(question, className="learning-question"),
-                    html.Div(
+                    html.Ol(
                         [
-                            html.Div(
+                            html.Li(
                                 [
-                                    html.Div(f"{index:02d}", className="learning-step-number"),
-                                    html.Div([html.H4(title), html.P(body)]),
+                                    html.Strong(title),
+                                    html.P(body),
                                 ],
                                 className="learning-step",
                             )
-                            for index, (title, body) in enumerate(steps, start=1)
+                            for title, body in steps
                         ],
                         className="learning-steps",
                     ),
-                    html.Div(
+                    html.P(
                         [
-                            html.Span("Key terms on this page", className="concept-label"),
-                            *[html.Span(term, className="concept-chip") for term in concepts or []],
+                            html.Strong("Terms used: "),
+                            ", ".join(concepts or []),
                         ],
                         className="concept-list",
                     )
@@ -60,10 +56,7 @@ def learning_guide(
 
 def chart_guide(text: str) -> html.Div:
     """Add a short, plain-language instruction beneath a chart heading."""
-    return html.Div(
-        [html.Span("How to read", className="chart-guide-label"), html.Span(text)],
-        className="chart-guide",
-    )
+    return html.P(text, className="chart-guide")
 
 
 def teaching_callout(
@@ -76,7 +69,6 @@ def teaching_callout(
     """Present a concept with definition, formula, and simple example."""
     return html.Div(
         [
-            html.Div("LEARN", className="teaching-tag"),
             html.Div(
                 [
                     html.H4(title),
