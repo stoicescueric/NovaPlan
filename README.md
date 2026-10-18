@@ -8,6 +8,8 @@ internship project. It asks one practical question:
 The project is not a real Deloitte tool. It uses only synthetic (invented) data
 and simplified finance rules.
 
+![Project Overview page: the hiring question, four headline numbers and a chart of revenue versus year-end cash from 2020 to 2025](docs/screenshots/overview.png)
+
 ## What the dashboard contains
 
 The main navigation has six pages:
@@ -34,6 +36,31 @@ floor, then runs a Monte Carlo over uptime, payment delay and booked hours to
 show how often cash runs short and how many of those runs were still profitable
 on paper. Like the rest of the project it uses only fictional data: every default
 is an illustrative assumption in `config/robot_rental.yaml`, not real market data.
+
+## Screenshots
+
+Every number on screen comes from the fictional companies and illustrative
+assumptions described in this README.
+
+**What-if Experiment** — 40 extra hires add operating profit, but the lowest
+cash point falls while the new people ramp up.
+
+![What-if Experiment page with four sliders, four result cards and a chart of base-plan versus experiment cash](docs/screenshots/what-if.png)
+
+**13-Week Cash Check** — weekly closing cash against an example €3m floor.
+
+![13-Week Cash Check page with three sliders, four cash cards and a weekly closing-cash chart](docs/screenshots/cash-check.png)
+
+**Risk Simulation** — 5,000 runs of the 18-month forecast; the shaded band holds
+the P5–P95 range of cash.
+
+![Risk Simulation page with the uncertainty controls, four result cards and a cash fan chart](docs/screenshots/risk-simulation.png)
+
+**Robot Rental Experiment** — shown with customers paying after 90 days and
+€550k of opening cash (the page's "Try this" settings). 16% of runs dip below
+the €50k cash floor, and 99% of those are still profitable on paper.
+
+![Robot Rental Experiment page with its sliders, three result cards, a cash range chart with the profit line, and the chance of running short at each uptime](docs/screenshots/robot-rental.png)
 
 ## The simple financial idea
 
@@ -84,6 +111,8 @@ of runs makes estimates steadier; it does not make the business more risky.
 
 Requirements: Python 3.12 or newer.
 
+On Windows (PowerShell):
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -93,7 +122,19 @@ python -m pytest -q
 python app.py
 ```
 
-Open [http://127.0.0.1:8050](http://127.0.0.1:8050).
+On macOS or Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python synthetic/generate_company.py
+python -m pytest -q
+python app.py
+```
+
+Open [http://127.0.0.1:8050](http://127.0.0.1:8050). The Robot Rental Experiment
+is at [http://127.0.0.1:8050/robot-rental](http://127.0.0.1:8050/robot-rental).
 
 ## What is tested
 
@@ -108,6 +149,9 @@ The automated checks cover both calculations and interactive-control behavior:
 - zero uncertainty produces one deterministic path;
 - higher uncertainty widens the simulated cash range;
 - changing the cash target changes the breach rate, not the paths;
+- the robot rental threshold is safe, while 0.1 percentage points lower is not;
+- the robot rental simulation flags runs that are short of cash while still
+  profitable;
 - every student-facing control reaches the model and moves the intended output.
 
 Run the checks with:
