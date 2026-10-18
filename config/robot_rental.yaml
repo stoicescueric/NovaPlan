@@ -1,0 +1,55 @@
+# Robot Rental Experiment - default assumptions for RoboHire SRL (firmă imaginară).
+#
+# RoboHire is a second fictional company invented for this student project.
+# Every number below is an illustrative teaching assumption, not real market data.
+# Each default has a comment line explaining it; "# SOURCE: TODO" marks where a
+# real-world reference should be added before the value is quoted as anything
+# more than a classroom example.
+#
+# Monthly model, all money in EUR. models/robot_rental.py reads this file, and any
+# key under `forecast` or `uncertainty` can be overridden through `assumptions`.
+
+company:
+  # Name shown on the dashboard page.
+  name: RoboHire SRL (firmă imaginară)
+
+forecast:
+  # Planning horizon in months; month 0 is the month the robots are bought. A modelling choice.
+  months: 36
+  # Cash raised before buying any robots.
+  opening_cash_eur: 600000  # SOURCE: TODO
+  # Number of robot cells bought (all paid for in month 0).
+  fleet_size: 10  # SOURCE: TODO
+  # Price per robot cell, including integration into the customer's production line.
+  robot_cost_eur: 45000  # SOURCE: TODO
+  # Robots placed with customers each month until the whole fleet is out (the ramp).
+  deploy_per_month: 2  # SOURCE: TODO
+  # Useful life of a robot for straight-line depreciation, in months.
+  useful_life_months: 60  # SOURCE: TODO
+  # Hours a customer books per placed robot per month.
+  booked_hours_per_robot_month: 320  # SOURCE: TODO
+  # Rental price per working hour.
+  hourly_rate_eur: 22  # SOURCE: TODO
+  # Share of booked hours the robot actually works (0.95 = 95%); down hours earn nothing.
+  uptime: 0.95  # SOURCE: TODO
+  # Technician and spare-parts cost per hour a robot is down.
+  repair_cost_per_down_hour_eur: 40  # SOURCE: TODO
+  # Fixed maintenance and remote-support cost per placed robot per month.
+  service_cost_per_robot_month_eur: 450  # SOURCE: TODO
+  # Staff, office and insurance costs per month.
+  fixed_opex_month_eur: 9000  # SOURCE: TODO
+  # Average number of days customers take to pay (DSO).
+  dso_days: 45  # SOURCE: TODO
+  # Minimum cash the company must keep in the bank in every month.
+  cash_floor_eur: 50000  # SOURCE: TODO
+
+uncertainty:
+  # Monte Carlo spreads at uncertainty level 100%; the uncertainty control multiplies all four.
+  # Spread of each run's average uptime around the chosen uptime (std; 0.02 = 2 percentage points).
+  uptime_path_std_pp: 0.02  # SOURCE: TODO
+  # Month-to-month wobble of uptime around that run's average (std; 0.01 = 1 percentage point).
+  uptime_monthly_std_pp: 0.01  # SOURCE: TODO
+  # Spread of each run's customer payment delay around dso_days (std, in days).
+  dso_path_std_days: 8  # SOURCE: TODO
+  # Spread of each run's booked hours around the plan (std; 0.08 = 8%).
+  booked_hours_path_std_pct: 0.08  # SOURCE: TODO

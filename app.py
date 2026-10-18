@@ -15,6 +15,7 @@ NAV_ITEMS = [
     ("/cash-check", "13-Week Cash Check", "03"),
     ("/monte-carlo", "Risk Simulation", "04"),
     ("/how-it-works", "How It Works", "05"),
+    ("/robot-rental", "Robot Rental Experiment", "06"),
 ]
 
 

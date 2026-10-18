@@ -10,7 +10,7 @@ and simplified finance rules.
 
 ## What the dashboard contains
 
-The main navigation has five pages:
+The main navigation has six pages:
 
 1. **Project Overview** — the question, the fictional company and the main result.
 2. **What-if Experiment** — change hires, utilization, billing rate and customer
@@ -18,9 +18,22 @@ The main navigation has five pages:
 3. **13-Week Cash Check** — test a payment delay, new hires or an unexpected bill.
 4. **Risk Simulation** — run the forecast many times with different uncertainty.
 5. **How It Works** — data, formulas, testing and limitations.
+6. **Robot Rental Experiment** — a second fictional company rents robots by the
+   hour; find the lowest safe uptime and test whether it can run out of cash while
+   still reporting a profit.
 
 The original detailed pages remain available as optional examples, but they are
 not needed to understand the student project.
+
+### Robot Rental Experiment
+
+The sixth page uses a second invented company, RoboHire SRL, which buys robots
+up front and rents them to factories by the hour, while customers pay weeks
+later. It finds the lowest uptime at which cash never falls below a minimum
+floor, then runs a Monte Carlo over uptime, payment delay and booked hours to
+show how often cash runs short and how many of those runs were still profitable
+on paper. Like the rest of the project it uses only fictional data: every default
+is an illustrative assumption in `config/robot_rental.yaml`, not real market data.
 
 ## The simple financial idea
 
